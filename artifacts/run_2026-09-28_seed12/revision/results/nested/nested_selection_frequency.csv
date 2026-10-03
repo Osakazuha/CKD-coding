@@ -1,0 +1,31 @@
+population,scope_id,scenario,imputation,model,outer_folds_selected,outer_folds_total,selection_frequency
+full_sample,retained_sample,A_all_original,median_mode,Extra Trees,4,15,0.26666666666666666
+full_sample,retained_sample,B_pca_95,knn,Extra Trees,3,15,0.2
+full_sample,retained_sample,B_pca_95,median_mode,Random Forest,2,15,0.13333333333333333
+full_sample,retained_sample,B_pca_95,median_mode,AdaBoost,1,15,0.06666666666666667
+full_sample,retained_sample,B_pca_95,median_mode,Extra Trees,1,15,0.06666666666666667
+full_sample,retained_sample,B_pca_95,knn,Random Forest,1,15,0.06666666666666667
+full_sample,retained_sample,A_all_original,knn,Extra Trees,1,15,0.06666666666666667
+full_sample,retained_sample,C_selected_original,knn,Extra Trees,1,15,0.06666666666666667
+full_sample,retained_sample,C_selected_original,knn,SVM,1,15,0.06666666666666667
+full_sample,retained_sample:A_all_original,A_all_original,median_mode,Extra Trees,11,15,0.7333333333333333
+full_sample,retained_sample:A_all_original,A_all_original,median_mode,SVM,2,15,0.13333333333333333
+full_sample,retained_sample:A_all_original,A_all_original,knn,SVM,1,15,0.06666666666666667
+full_sample,retained_sample:A_all_original,A_all_original,knn,Extra Trees,1,15,0.06666666666666667
+full_sample,retained_sample:B_pca_95,B_pca_95,knn,Extra Trees,4,15,0.26666666666666666
+full_sample,retained_sample:B_pca_95,B_pca_95,median_mode,Extra Trees,4,15,0.26666666666666666
+full_sample,retained_sample:B_pca_95,B_pca_95,median_mode,Random Forest,4,15,0.26666666666666666
+full_sample,retained_sample:B_pca_95,B_pca_95,median_mode,SVM,1,15,0.06666666666666667
+full_sample,retained_sample:B_pca_95,B_pca_95,median_mode,AdaBoost,1,15,0.06666666666666667
+full_sample,retained_sample:B_pca_95,B_pca_95,knn,Random Forest,1,15,0.06666666666666667
+full_sample,retained_sample:C_selected_original,C_selected_original,knn,Extra Trees,6,15,0.4
+full_sample,retained_sample:C_selected_original,C_selected_original,median_mode,Extra Trees,4,15,0.26666666666666666
+full_sample,retained_sample:C_selected_original,C_selected_original,median_mode,SVM,2,15,0.13333333333333333
+full_sample,retained_sample:C_selected_original,C_selected_original,knn,SVM,2,15,0.13333333333333333
+full_sample,retained_sample:C_selected_original,C_selected_original,knn,Gradient Boosting,1,15,0.06666666666666667
+full_sample,retained_tree_non_pca,A_all_original,median_mode,Extra Trees,12,15,0.8
+full_sample,retained_tree_non_pca,C_selected_original,knn,Extra Trees,2,15,0.13333333333333333
+full_sample,retained_tree_non_pca,A_all_original,knn,Extra Trees,1,15,0.06666666666666667
+complete_case,complete_case_sensitivity,B_pca_95,complete_case,AdaBoost,11,15,0.7333333333333333
+complete_case,complete_case_sensitivity,A_all_original,complete_case,Extra Trees,3,15,0.2
+complete_case,complete_case_sensitivity,A_all_original,complete_case,Gradient Boosting,1,15,0.06666666666666667

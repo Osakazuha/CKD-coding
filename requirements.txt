@@ -1,0 +1,14 @@
+# Direct dependencies (loose ranges for development). For an exact reproduction use
+# requirements.lock.txt, which pins the versions recorded in the run manifests.
+numpy>=1.26,<3
+pandas>=2.0,<3
+scipy>=1.11,<2
+scikit-learn>=1.4,<2
+xgboost>=2.0,<4
+shap>=0.46,<1
+matplotlib>=3.8,<4
+seaborn>=0.13,<1
+openpyxl>=3.1,<4
+python-docx>=1.1,<2
+pytest>=8,<10
+# PDF rendering of the manuscript additionally requires LibreOffice (soffice) on PATH.

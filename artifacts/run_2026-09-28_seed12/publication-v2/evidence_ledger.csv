@@ -1,0 +1,240 @@
+claim_id,value,units,source_file,source_row_filter,manuscript_section
+dataset_n,400,records,baseline/results/data_audit.json,cleaned_shape[0],"2.2 Data source, predictors, and outcome"
+dataset_predictors,24,features,baseline/results/data_audit.json,cleaned_shape[1]-1,"2.2 Data source, predictors, and outcome"
+dataset_ckd,250,records,baseline/results/data_audit.json,target_distribution.1,3.1 Dataset composition and missingness
+dataset_non_ckd,150,records,baseline/results/data_audit.json,target_distribution.0,3.1 Dataset composition and missingness
+shifted_rows_repaired,One record,row,baseline/results/data_audit.json,shifted_rows_repaired,2.3 Data audit and deterministic cleaning
+development_n,280,records,baseline/results/split_manifest.json,development.n_rows,2.4 Development and holdout samples
+holdout_n,120,records,baseline/results/split_manifest.json,locked_historical_internal_holdout.n_rows,2.4 Development and holdout samples
+development_ckd,175,records,baseline/results/split_manifest.json,development.class_counts.1,2.4 Development and holdout samples
+development_non_ckd,105,records,baseline/results/split_manifest.json,development.class_counts.0,2.4 Development and holdout samples
+holdout_ckd,75,records,baseline/results/split_manifest.json,locked_historical_internal_holdout.class_counts.1,2.4 Development and holdout samples
+holdout_non_ckd,45,records,baseline/results/split_manifest.json,locked_historical_internal_holdout.class_counts.0,2.4 Development and holdout samples
+complete_case_development_n,112,records,baseline/results/split_manifest.json,development_complete_case_sensitivity.n_rows,3.1 Dataset composition and missingness
+complete_case_development_composition,81 non-CKD and 31 CKD,records,baseline/results/split_manifest.json,development_complete_case_sensitivity.class_counts,3.1 Dataset composition and missingness
+xgboost_original_baseline_cv_accuracy,0.968,proportion,baseline/results/model_comparison.csv,A_all_original|median_mode|XGBoost,3.2 Reproduction of the published comparison
+xgboost_original_holdout_accuracy,1.000,proportion,advanced/results/holdout_evaluation.csv,A_all_original|median_mode|XGBoost,3.2 Reproduction of the published comparison
+xgboost_pca_baseline_cv_accuracy,0.986,proportion,baseline/results/model_comparison.csv,B_pca_95|median_mode|XGBoost,3.2 Reproduction of the published comparison
+xgboost_pca_holdout_accuracy,1.000,proportion,advanced/results/holdout_evaluation.csv,B_pca_95|median_mode|XGBoost,3.2 Reproduction of the published comparison
+missing_rbc,red blood-cell morphology (152/400,records,baseline/results/data_audit.json,missing_by_feature.rbc,3.1 Dataset composition and missingness
+missing_rbcc,red blood cell count (131/400,records,baseline/results/data_audit.json,missing_by_feature.rbcc,3.1 Dataset composition and missingness
+missing_wbcc,white blood cell count (106/400,records,baseline/results/data_audit.json,missing_by_feature.wbcc,3.1 Dataset composition and missingness
+missing_pot,potassium (88/400,records,baseline/results/data_audit.json,missing_by_feature.pot,3.1 Dataset composition and missingness
+missing_sod,sodium (87/400,records,baseline/results/data_audit.json,missing_by_feature.sod,3.1 Dataset composition and missingness
+complete_case_total,158 of 400 records (39.5%),records,baseline/results/split_manifest.json,complete-case development + holdout,3.1 Dataset composition and missingness
+complete_case_total_composition,115 (72.8%) were non-CKD and 43 (17.2% of all CKD records) were CKD,records,baseline/results/split_manifest.json,complete-case development + holdout,3.1 Dataset composition and missingness
+complete_case_holdout_n,46,records,advanced/results/holdout_evaluation.csv,complete_case rows,3.1 Dataset composition and missingness
+development_ckd_share,62.5%,percent,baseline/results/split_manifest.json,development.class_counts.1/n_rows,3.1 Dataset composition and missingness
+complete_case_development_ckd_share,27.7%,percent,baseline/results/split_manifest.json,development_complete_case_sensitivity.class_counts.1/n_rows,3.1 Dataset composition and missingness
+complete_case_removed_share,60.5%,percent,baseline/results/split_manifest.json,1 - complete-case total/cleaned_shape[0],3.3 Repeated cross-validation
+global_top_tie_count,8,configurations,advanced/results/selection_manifest.json,ranked_scopes[global].top_tie_count,3.3 Repeated cross-validation
+global_top_complete_case_count,8,configurations,advanced/results/selection_manifest.json,ranked_scopes[global].jointly_top_ranked,3.3 Repeated cross-validation
+global_top_tuple,"1.0000, 1.0000, and 1.0000",metrics,advanced/results/selection_manifest.json,ranked_scopes[global].ranked_candidates[0].metrics,3.3 Repeated cross-validation
+primary_pipeline,C_selected_original|knn|Extra Trees,candidate key,advanced/results/selection_manifest.json,ranked_scopes[retained_sample:C_selected_original].display_representative,(identity; not displayed verbatim)
+primary_model_name,Extra Trees,model,advanced/results/selection_manifest.json,ranked_scopes[retained_sample:C_selected_original].display_representative,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+primary_n_development,280,records,advanced/results/holdout_evaluation.csv,C_selected_original|knn|Extra Trees,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+primary_n_holdout,120,records,advanced/results/holdout_evaluation.csv,C_selected_original|knn|Extra Trees,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+primary_cv_accuracy,0.9869,proportion,advanced/results/model_comparison_repeated_cv.csv,C_selected_original|knn|Extra Trees,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+primary_cv_accuracy_sd,0.0218,proportion,advanced/results/model_comparison_repeated_cv.csv,C_selected_original|knn|Extra Trees,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+primary_cv_accuracy_fold_range,0.9348–1.0000,proportion,advanced/results/model_comparison_repeated_cv.csv,C_selected_original|knn|Extra Trees,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+primary_cv_recall,0.9829,proportion,advanced/results/model_comparison_repeated_cv.csv,C_selected_original|knn|Extra Trees,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+primary_cv_specificity,0.9937,proportion,advanced/results/model_comparison_repeated_cv.csv,C_selected_original|knn|Extra Trees,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+primary_cv_roc_auc,1.0000,area,advanced/results/model_comparison_repeated_cv.csv,C_selected_original|knn|Extra Trees,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+primary_holdout_accuracy,0.9833,proportion,advanced/results/holdout_evaluation.csv,C_selected_original|knn|Extra Trees,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+primary_holdout_bootstrap_interval,0.9583–1.0000,proportion,advanced/results/holdout_evaluation.csv,C_selected_original|knn|Extra Trees,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+primary_holdout_roc_auc,1.0000,area,advanced/results/holdout_evaluation.csv,C_selected_original|knn|Extra Trees,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+primary_holdout_brier,0.0142,score,advanced/results/holdout_evaluation.csv,C_selected_original|knn|Extra Trees,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+primary_top_tie_count,1,configurations,advanced/results/selection_manifest.json,ranked_scopes[retained_sample:C_selected_original].top_tie_count,3.3 Repeated cross-validation
+primary_tie_phrase,a single configuration,phrase,advanced/results/selection_manifest.json,ranked_scopes[retained_sample:C_selected_original].top_tie_count,3.3 Repeated cross-validation
+primary_description,"selected original features, numeric k-nearest-neighbor imputation, and Extra Trees",pipeline,advanced/results/selection_manifest.json,ranked_scopes[retained_sample:C_selected_original].display_representative,3.3 Repeated cross-validation
+primary_table_label,Selected originals; KNN; Extra Trees,pipeline,advanced/results/selection_manifest.json,ranked_scopes[retained_sample:C_selected_original].display_representative,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+primary_imputation_phrase,numeric k-nearest-neighbor imputation,strategy,advanced/results/selection_manifest.json,ranked_scopes[retained_sample:C_selected_original].display_representative,3.5 Feature representation and missing-data sensitivity
+primary_holdout_correct,118,records,advanced/results/holdout_evaluation.csv,C_selected_original|knn|Extra Trees,3.4 Holdout discrimination and bootstrap intervals
+primary_holdout_fn,2,records,advanced/results/holdout_evaluation.csv,C_selected_original|knn|Extra Trees,3.4 Holdout discrimination and bootstrap intervals
+primary_holdout_fp,0,records,advanced/results/holdout_evaluation.csv,C_selected_original|knn|Extra Trees,3.4 Holdout discrimination and bootstrap intervals
+primary_holdout_pr_auc,1.0000,area,advanced/results/holdout_evaluation.csv,C_selected_original|knn|Extra Trees,3.4 Holdout discrimination and bootstrap intervals
+primary_cv_accuracy_abstract,0.9869,proportion,advanced/results/model_comparison_repeated_cv.csv,C_selected_original|knn|Extra Trees,Abstract
+primary_cv_accuracy_sd_abstract,0.0218,proportion,advanced/results/model_comparison_repeated_cv.csv,C_selected_original|knn|Extra Trees,Abstract
+primary_holdout_accuracy_abstract,0.9833,proportion,advanced/results/holdout_evaluation.csv,C_selected_original|knn|Extra Trees,Abstract
+primary_cv_f1,0.9892,proportion,advanced/results/model_comparison_repeated_cv.csv,C_selected_original|knn|Extra Trees,3.3 Repeated cross-validation
+primary_cv_pr_auc,1.0000,area,advanced/results/model_comparison_repeated_cv.csv,C_selected_original|knn|Extra Trees,3.3 Repeated cross-validation
+primary_holdout_confusion,"TN = 45, FP = 0, FN = 2, and TP = 73",counts,advanced/results/holdout_evaluation.csv,C_selected_original|knn|Extra Trees,3.4 Holdout discrimination and bootstrap intervals
+primary_selected_features,"serum creatinine, sodium, hemoglobin, packed cell volume, red blood cell count, specific gravity, albumin, and hypertension",feature names,advanced/results/holdout_evaluation.csv,C_selected_original|knn|Extra Trees,2.6 Feature representations
+all_original_pipeline,A_all_original|knn|Extra Trees,candidate key,advanced/results/selection_manifest.json,ranked_scopes[retained_sample:A_all_original].display_representative,(identity; not displayed verbatim)
+all_original_model_name,Extra Trees,model,advanced/results/selection_manifest.json,ranked_scopes[retained_sample:A_all_original].display_representative,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+all_original_n_development,280,records,advanced/results/holdout_evaluation.csv,A_all_original|knn|Extra Trees,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+all_original_n_holdout,120,records,advanced/results/holdout_evaluation.csv,A_all_original|knn|Extra Trees,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+all_original_cv_accuracy,0.9905,proportion,advanced/results/model_comparison_repeated_cv.csv,A_all_original|knn|Extra Trees,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+all_original_cv_accuracy_sd,0.0133,proportion,advanced/results/model_comparison_repeated_cv.csv,A_all_original|knn|Extra Trees,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+all_original_cv_accuracy_fold_range,0.9643–1.0000,proportion,advanced/results/model_comparison_repeated_cv.csv,A_all_original|knn|Extra Trees,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+all_original_cv_recall,0.9848,proportion,advanced/results/model_comparison_repeated_cv.csv,A_all_original|knn|Extra Trees,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+all_original_cv_specificity,1.0000,proportion,advanced/results/model_comparison_repeated_cv.csv,A_all_original|knn|Extra Trees,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+all_original_cv_roc_auc,1.0000,area,advanced/results/model_comparison_repeated_cv.csv,A_all_original|knn|Extra Trees,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+all_original_holdout_accuracy,0.9750,proportion,advanced/results/holdout_evaluation.csv,A_all_original|knn|Extra Trees,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+all_original_holdout_bootstrap_interval,0.9500–1.0000,proportion,advanced/results/holdout_evaluation.csv,A_all_original|knn|Extra Trees,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+all_original_holdout_roc_auc,1.0000,area,advanced/results/holdout_evaluation.csv,A_all_original|knn|Extra Trees,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+all_original_holdout_brier,0.0149,score,advanced/results/holdout_evaluation.csv,A_all_original|knn|Extra Trees,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+all_original_top_tie_count,1,configurations,advanced/results/selection_manifest.json,ranked_scopes[retained_sample:A_all_original].top_tie_count,3.3 Repeated cross-validation
+all_original_tie_phrase,a single configuration,phrase,advanced/results/selection_manifest.json,ranked_scopes[retained_sample:A_all_original].top_tie_count,3.3 Repeated cross-validation
+all_original_description,"all original features, numeric k-nearest-neighbor imputation, and Extra Trees",pipeline,advanced/results/selection_manifest.json,ranked_scopes[retained_sample:A_all_original].display_representative,3.3 Repeated cross-validation
+all_original_table_label,All originals; KNN; Extra Trees,pipeline,advanced/results/selection_manifest.json,ranked_scopes[retained_sample:A_all_original].display_representative,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+all_original_imputation_phrase,numeric k-nearest-neighbor imputation,strategy,advanced/results/selection_manifest.json,ranked_scopes[retained_sample:A_all_original].display_representative,3.5 Feature representation and missing-data sensitivity
+all_original_holdout_correct,117,records,advanced/results/holdout_evaluation.csv,A_all_original|knn|Extra Trees,3.4 Holdout discrimination and bootstrap intervals
+all_original_holdout_fn,3,records,advanced/results/holdout_evaluation.csv,A_all_original|knn|Extra Trees,3.4 Holdout discrimination and bootstrap intervals
+all_original_holdout_fp,0,records,advanced/results/holdout_evaluation.csv,A_all_original|knn|Extra Trees,3.4 Holdout discrimination and bootstrap intervals
+all_original_holdout_pr_auc,1.0000,area,advanced/results/holdout_evaluation.csv,A_all_original|knn|Extra Trees,(identity; not displayed verbatim)
+pca_pipeline,B_pca_95|median_mode|Random Forest,candidate key,advanced/results/selection_manifest.json,ranked_scopes[retained_sample:B_pca_95].display_representative,(identity; not displayed verbatim)
+pca_model_name,Random Forest,model,advanced/results/selection_manifest.json,ranked_scopes[retained_sample:B_pca_95].display_representative,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+pca_n_development,280,records,advanced/results/holdout_evaluation.csv,B_pca_95|median_mode|Random Forest,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+pca_n_holdout,120,records,advanced/results/holdout_evaluation.csv,B_pca_95|median_mode|Random Forest,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+pca_cv_accuracy,0.9940,proportion,advanced/results/model_comparison_repeated_cv.csv,B_pca_95|median_mode|Random Forest,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+pca_cv_accuracy_sd,0.0087,proportion,advanced/results/model_comparison_repeated_cv.csv,B_pca_95|median_mode|Random Forest,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+pca_cv_accuracy_fold_range,0.9821–1.0000,proportion,advanced/results/model_comparison_repeated_cv.csv,B_pca_95|median_mode|Random Forest,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+pca_cv_recall,0.9905,proportion,advanced/results/model_comparison_repeated_cv.csv,B_pca_95|median_mode|Random Forest,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+pca_cv_specificity,1.0000,proportion,advanced/results/model_comparison_repeated_cv.csv,B_pca_95|median_mode|Random Forest,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+pca_cv_roc_auc,1.0000,area,advanced/results/model_comparison_repeated_cv.csv,B_pca_95|median_mode|Random Forest,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+pca_holdout_accuracy,0.9917,proportion,advanced/results/holdout_evaluation.csv,B_pca_95|median_mode|Random Forest,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+pca_holdout_bootstrap_interval,0.9750–1.0000,proportion,advanced/results/holdout_evaluation.csv,B_pca_95|median_mode|Random Forest,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+pca_holdout_roc_auc,1.0000,area,advanced/results/holdout_evaluation.csv,B_pca_95|median_mode|Random Forest,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+pca_holdout_brier,0.0053,score,advanced/results/holdout_evaluation.csv,B_pca_95|median_mode|Random Forest,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+pca_top_tie_count,1,configurations,advanced/results/selection_manifest.json,ranked_scopes[retained_sample:B_pca_95].top_tie_count,3.3 Repeated cross-validation
+pca_tie_phrase,a single configuration,phrase,advanced/results/selection_manifest.json,ranked_scopes[retained_sample:B_pca_95].top_tie_count,3.3 Repeated cross-validation
+pca_description,"PCA, median/mode imputation, and Random Forest",pipeline,advanced/results/selection_manifest.json,ranked_scopes[retained_sample:B_pca_95].display_representative,3.3 Repeated cross-validation
+pca_table_label,PCA ≥95%; median/mode; Random Forest,pipeline,advanced/results/selection_manifest.json,ranked_scopes[retained_sample:B_pca_95].display_representative,Table 3. Principal repeated-cross-validation and locked-holdout results (analyses retaining all records)
+pca_imputation_phrase,median/mode imputation,strategy,advanced/results/selection_manifest.json,ranked_scopes[retained_sample:B_pca_95].display_representative,3.5 Feature representation and missing-data sensitivity
+pca_holdout_correct,119,records,advanced/results/holdout_evaluation.csv,B_pca_95|median_mode|Random Forest,3.4 Holdout discrimination and bootstrap intervals
+pca_holdout_fn,1,records,advanced/results/holdout_evaluation.csv,B_pca_95|median_mode|Random Forest,3.4 Holdout discrimination and bootstrap intervals
+pca_holdout_fp,0,records,advanced/results/holdout_evaluation.csv,B_pca_95|median_mode|Random Forest,3.4 Holdout discrimination and bootstrap intervals
+pca_holdout_pr_auc,1.0000,area,advanced/results/holdout_evaluation.csv,B_pca_95|median_mode|Random Forest,(identity; not displayed verbatim)
+complete_case_pipeline,A_all_original|complete_case|Extra Trees,candidate key,advanced/results/selection_manifest.json,ranked_scopes[complete_case_sensitivity].display_representative,(identity; not displayed verbatim)
+complete_case_model_name,Extra Trees,model,advanced/results/selection_manifest.json,ranked_scopes[complete_case_sensitivity].display_representative,Table 4. Complete-case sensitivity analysis in a different analytical population
+complete_case_n_development,112,records,advanced/results/holdout_evaluation.csv,A_all_original|complete_case|Extra Trees,Table 4. Complete-case sensitivity analysis in a different analytical population
+complete_case_n_holdout,46,records,advanced/results/holdout_evaluation.csv,A_all_original|complete_case|Extra Trees,Table 4. Complete-case sensitivity analysis in a different analytical population
+complete_case_cv_accuracy,1.0000,proportion,advanced/results/model_comparison_repeated_cv.csv,A_all_original|complete_case|Extra Trees,Table 4. Complete-case sensitivity analysis in a different analytical population
+complete_case_cv_accuracy_sd,0.0000,proportion,advanced/results/model_comparison_repeated_cv.csv,A_all_original|complete_case|Extra Trees,Table 4. Complete-case sensitivity analysis in a different analytical population
+complete_case_cv_accuracy_fold_range,1.0000–1.0000,proportion,advanced/results/model_comparison_repeated_cv.csv,A_all_original|complete_case|Extra Trees,Table 4. Complete-case sensitivity analysis in a different analytical population
+complete_case_cv_recall,1.0000,proportion,advanced/results/model_comparison_repeated_cv.csv,A_all_original|complete_case|Extra Trees,Table 4. Complete-case sensitivity analysis in a different analytical population
+complete_case_cv_specificity,1.0000,proportion,advanced/results/model_comparison_repeated_cv.csv,A_all_original|complete_case|Extra Trees,Table 4. Complete-case sensitivity analysis in a different analytical population
+complete_case_cv_roc_auc,1.0000,area,advanced/results/model_comparison_repeated_cv.csv,A_all_original|complete_case|Extra Trees,Table 4. Complete-case sensitivity analysis in a different analytical population
+complete_case_holdout_accuracy,1.0000,proportion,advanced/results/holdout_evaluation.csv,A_all_original|complete_case|Extra Trees,Table 4. Complete-case sensitivity analysis in a different analytical population
+complete_case_holdout_bootstrap_interval,1.0000–1.0000,proportion,advanced/results/holdout_evaluation.csv,A_all_original|complete_case|Extra Trees,Table 4. Complete-case sensitivity analysis in a different analytical population
+complete_case_holdout_roc_auc,1.0000,area,advanced/results/holdout_evaluation.csv,A_all_original|complete_case|Extra Trees,Table 4. Complete-case sensitivity analysis in a different analytical population
+complete_case_holdout_brier,0.0030,score,advanced/results/holdout_evaluation.csv,A_all_original|complete_case|Extra Trees,Table 4. Complete-case sensitivity analysis in a different analytical population
+complete_case_top_tie_count,8,configurations,advanced/results/selection_manifest.json,ranked_scopes[complete_case_sensitivity].top_tie_count,3.3 Repeated cross-validation
+complete_case_tie_phrase,8 exactly tied configurations,phrase,advanced/results/selection_manifest.json,ranked_scopes[complete_case_sensitivity].top_tie_count,(identity; not displayed verbatim)
+complete_case_description,"all original features, complete-case deletion, and Extra Trees",pipeline,advanced/results/selection_manifest.json,ranked_scopes[complete_case_sensitivity].display_representative,3.3 Repeated cross-validation
+complete_case_table_label,All originals; complete case; Extra Trees,pipeline,advanced/results/selection_manifest.json,ranked_scopes[complete_case_sensitivity].display_representative,Table 4. Complete-case sensitivity analysis in a different analytical population
+complete_case_imputation_phrase,complete-case deletion,strategy,advanced/results/selection_manifest.json,ranked_scopes[complete_case_sensitivity].display_representative,(identity; not displayed verbatim)
+complete_case_holdout_correct,46,records,advanced/results/holdout_evaluation.csv,A_all_original|complete_case|Extra Trees,3.4 Holdout discrimination and bootstrap intervals
+complete_case_holdout_fn,0,records,advanced/results/holdout_evaluation.csv,A_all_original|complete_case|Extra Trees,3.4 Holdout discrimination and bootstrap intervals
+complete_case_holdout_fp,0,records,advanced/results/holdout_evaluation.csv,A_all_original|complete_case|Extra Trees,3.4 Holdout discrimination and bootstrap intervals
+complete_case_holdout_pr_auc,1.0000,area,advanced/results/holdout_evaluation.csv,A_all_original|complete_case|Extra Trees,(identity; not displayed verbatim)
+complete_case_holdout_composition,34 non-CKD and 12 CKD,records,advanced/results/holdout_evaluation.csv,A_all_original|complete_case|Extra Trees,3.3 Repeated cross-validation
+complete_case_holdout_accuracy_abstract,1.0000,proportion,advanced/results/holdout_evaluation.csv,A_all_original|complete_case|Extra Trees,Abstract
+complete_case_bootstrap_interval_abstract,1.0000–1.0000,proportion,advanced/results/holdout_evaluation.csv,A_all_original|complete_case|Extra Trees,Abstract
+pca_versus_original_relation,exceeded,comparison,advanced/results/model_comparison_repeated_cv.csv,rcv_accuracy_mean of retained representatives,3.5 Feature representation and missing-data sensitivity
+pca_versus_original_relation_results,exceeded,comparison,advanced/results/model_comparison_repeated_cv.csv,rcv_accuracy_mean of retained representatives,3.2 Reproduction of the published comparison
+pca_cv_advantage,0.0036,proportion,advanced/results/model_comparison_repeated_cv.csv,"pca minus max(primary, all_original) rcv_accuracy_mean",3.2 Reproduction of the published comparison
+pca_cv_advantage_abstract,0.0036,proportion,advanced/results/model_comparison_repeated_cv.csv,"pca minus max(primary, all_original) rcv_accuracy_mean",Abstract
+highest_retained_cv_pipeline,the PCA Random Forest,pipeline,advanced/results/model_comparison_repeated_cv.csv,maximum rcv_accuracy_mean of retained representatives,4.1 Principal findings
+brier_cv_leader_agreement,coincided,comparison,advanced/results/calibration_metrics.csv,minimum brier_score vs maximum retained rcv_accuracy_mean,4.1 Principal findings
+retained_accuracy_spread,0.0071,proportion,advanced/results/model_comparison_repeated_cv.csv,max-min rcv_accuracy_mean of retained representatives,4.1 Principal findings
+xgboost_pca_versus_original_holdout,equal to,comparison,advanced/results/holdout_evaluation.csv,XGBoost median_mode B vs A holdout_accuracy_observed,4.2 Comparison with the published study
+xgboost_pca_cv_effect,increased,comparison,baseline/results/model_comparison.csv,XGBoost median_mode B vs A cv_accuracy_mean,3.2 Reproduction of the published comparison
+xgboost_pca_holdout_effect,did not change,comparison,advanced/results/holdout_evaluation.csv,XGBoost median_mode B vs A holdout_accuracy_observed,3.2 Reproduction of the published comparison
+pca_components,27,components,advanced/results/pca_explained_variance.csv,n_components_retained,3.5 Feature representation and missing-data sensitivity
+pca_cumulative_variance_pct,95.96%,percent,advanced/results/pca_explained_variance.csv,cumulative_explained_variance[n_components_retained],3.5 Feature representation and missing-data sensitivity
+pca_components_caption,27,components,advanced/results/pca_explained_variance.csv,n_components_retained,Figure 2.
+pca_input_columns,47,columns,advanced/results/pca_explained_variance.csv,n_input_columns,3.5 Feature representation and missing-data sensitivity
+all_original_brier,0.0149,score,advanced/results/calibration_metrics.csv,A_all_original|knn|Extra Trees,3.6 Calibration
+all_original_ece,0.0500,proportion,advanced/results/calibration_metrics.csv,A_all_original|knn|Extra Trees,3.6 Calibration
+all_original_calibration_bins_realized,8,bins,advanced/results/calibration_metrics.csv,A_all_original|knn|Extra Trees,3.6 Calibration
+pca_brier,0.0053,score,advanced/results/calibration_metrics.csv,B_pca_95|median_mode|Random Forest,3.6 Calibration
+pca_ece,0.0325,proportion,advanced/results/calibration_metrics.csv,B_pca_95|median_mode|Random Forest,3.6 Calibration
+pca_calibration_bins_realized,10,bins,advanced/results/calibration_metrics.csv,B_pca_95|median_mode|Random Forest,3.6 Calibration
+primary_brier,0.0142,score,advanced/results/calibration_metrics.csv,C_selected_original|knn|Extra Trees,3.6 Calibration
+primary_ece,0.0466,proportion,advanced/results/calibration_metrics.csv,C_selected_original|knn|Extra Trees,3.6 Calibration
+primary_calibration_bins_realized,9,bins,advanced/results/calibration_metrics.csv,C_selected_original|knn|Extra Trees,3.6 Calibration
+best_brier_model,Random Forest,model,advanced/results/calibration_metrics.csv,minimum brier_score,(identity; not displayed verbatim)
+best_brier_pipeline,the PCA Random Forest,pipeline,advanced/results/calibration_metrics.csv,minimum brier_score,3.6 Calibration
+best_brier_score,0.0053,score,advanced/results/calibration_metrics.csv,minimum brier_score,3.6 Calibration
+ablation_pipeline_model,Extra Trees,model,advanced/results/ablation_results.csv,dropped_feature=none,3.7 Ablation and SHAP findings
+ablation_reference_accuracy,0.9905,proportion,advanced/results/ablation_results.csv,dropped_feature=none,3.7 Ablation and SHAP findings
+largest_ablation_feature,specific gravity,feature name,advanced/results/ablation_results.csv,minimum delta_accuracy_mean,3.7 Ablation and SHAP findings
+largest_ablation_delta_accuracy,−0.0238,proportion,advanced/results/ablation_results.csv,minimum delta_accuracy_mean,3.7 Ablation and SHAP findings
+largest_ablation_delta_interval,−0.0768 to 0.0000,proportion,advanced/results/ablation_results.csv,minimum delta_accuracy_mean,3.7 Ablation and SHAP findings
+largest_ablation_feature_abstract,Specific gravity,feature name,advanced/results/ablation_results.csv,minimum delta_accuracy_mean,Abstract
+largest_ablation_delta_abstract,−0.0238,proportion,advanced/results/ablation_results.csv,minimum delta_accuracy_mean,Abstract
+ablation_features_interval_including_zero,24,features,advanced/results/ablation_results.csv,count p2_5 <= 0 <= p97_5,3.7 Ablation and SHAP findings
+ablation_features_entirely_negative,0,features,advanced/results/ablation_results.csv,count delta_accuracy_fold_p97_5 < 0,3.7 Ablation and SHAP findings
+ablation_distinguishability,the removal of no single field could be distinguished from fold-to-fold variation,phrase,advanced/results/ablation_results.csv,count delta_accuracy_fold_p97_5 < 0,3.7 Ablation and SHAP findings
+ablation_distinguishability_abstract,the removal of no single field could be distinguished from fold-to-fold variation,phrase,advanced/results/ablation_results.csv,count delta_accuracy_fold_p97_5 < 0,Abstract
+ablation_pipeline_imputation,numeric k-nearest-neighbor imputation,strategy,advanced/results/ablation_results.csv,dropped_feature=none,3.7 Ablation and SHAP findings
+ordinal_delta_accuracy,−0.0071,proportion,advanced/results/ordinal_sensitivity.csv,row 0,4.4 PCA and original-feature selection
+ordinal_delta_interval,−0.0473 to 0.0116,proportion,advanced/results/ordinal_sensitivity.csv,row 0,4.4 PCA and original-feature selection
+ordinal_delta_roc_auc,0.0000,area,advanced/results/ordinal_sensitivity.csv,row 0,4.4 PCA and original-feature selection
+top_grouped_shap_variable,hypertension,original variable,advanced/results/shap_importance_grouped.csv,rank 1,3.7 Ablation and SHAP findings
+top_grouped_shap_value,0.0987,mean |grouped SHAP|,advanced/results/shap_importance_grouped.csv,rank 1,3.7 Ablation and SHAP findings
+second_grouped_shap_variable,albumin,original variable,advanced/results/shap_importance_grouped.csv,rank 2,3.7 Ablation and SHAP findings
+second_grouped_shap_value,0.0907,mean |grouped SHAP|,advanced/results/shap_importance_grouped.csv,rank 2,3.7 Ablation and SHAP findings
+third_grouped_shap_variable,diabetes,original variable,advanced/results/shap_importance_grouped.csv,rank 3,3.7 Ablation and SHAP findings
+top_grouped_shap_variable_abstract,hypertension,original variable,advanced/results/shap_importance_grouped.csv,rank 1,Abstract
+top_transformed_shap_feature,albumin = 0,transformed column,advanced/results/shap_importance_transformed.csv,rank 1,3.7 Ablation and SHAP findings
+top_transformed_shap_value,0.0840,mean |SHAP|,advanced/results/shap_importance_transformed.csv,rank 1,3.7 Ablation and SHAP findings
+shap_model,all originals / KNN / Extra Trees,pipeline,advanced/results/selection_manifest.json,ranked_scopes[retained_tree_non_pca].display_representative,3.7 Ablation and SHAP findings
+leading_variable_agreement,differed,comparison,advanced/results/shap_importance_grouped.csv,rank 1 vs ablation minimum delta,3.7 Ablation and SHAP findings
+version_python,Python 3.9.6,version,advanced/results/config.json,runtime_versions.python,2.12 Software environment
+version_numpy,NumPy 2.0.2,version,advanced/results/config.json,runtime_versions.numpy,2.12 Software environment
+version_pandas,pandas 2.3.3,version,advanced/results/config.json,runtime_versions.pandas,2.12 Software environment
+version_scipy,SciPy 1.13.1,version,advanced/results/config.json,runtime_versions.scipy,2.12 Software environment
+version_scikit_learn,scikit-learn 1.6.1,version,advanced/results/config.json,runtime_versions.scikit-learn,2.12 Software environment
+version_xgboost,XGBoost 2.1.4,version,advanced/results/config.json,runtime_versions.xgboost,2.12 Software environment
+version_shap,SHAP 0.49.1,version,advanced/results/config.json,runtime_versions.shap,2.12 Software environment
+version_matplotlib,Matplotlib 3.9.4,version,advanced/results/config.json,runtime_versions.matplotlib,2.12 Software environment
+bootstrap_resamples,"1,000",resamples,advanced/results/config.json,effective_configuration.holdout.bootstrap.resamples,2.9 Holdout evaluation and bootstrap analysis
+main_seed,12,seed,baseline/results/split_manifest.json,random_state,2.4 Development and holdout samples
+main_seed_abstract,12,seed,baseline/results/split_manifest.json,random_state,Abstract
+main_seed_classifiers,12,seed,baseline/results/split_manifest.json,random_state,2.7 Classifiers
+main_seed_cv,12,seed,baseline/results/split_manifest.json,random_state,2.8 Cross-validation and model selection
+main_seed_software,12,seed,baseline/results/split_manifest.json,random_state,2.12 Software environment
+main_seed_table1,12,seed,baseline/results/split_manifest.json,random_state,Table 1. Experimental comparisons and safeguards against data leakage
+main_seed_sensitivity_methods,12,seed,baseline/results/split_manifest.json,random_state,2.13 Seed-sensitivity analysis
+main_seed_supplementary,12,seed,baseline/results/split_manifest.json,random_state,Supplementary Table S1. Seed-sensitivity replication of the prespecified selection rule
+sensitivity_seeds,"42, 39, and 55",seeds,advanced/results/config.json,effective_configuration.seed_sensitivity.seeds,2.13 Seed-sensitivity analysis
+sensitivity_seeds_results,"42, 39, and 55",seeds,advanced/results/config.json,effective_configuration.seed_sensitivity.seeds,3.8 Seed sensitivity
+sensitivity_seeds_abstract,"42, 39, and 55",seeds,advanced/results/config.json,effective_configuration.seed_sensitivity.seeds,Abstract
+sensitivity_seed_count,three,seeds,advanced/results/config.json,effective_configuration.seed_sensitivity.seeds,2.13 Seed-sensitivity analysis
+sensitivity_seed_count_results,three,seeds,advanced/results/config.json,effective_configuration.seed_sensitivity.seeds,3.8 Seed sensitivity
+sensitivity_seed_count_abstract,three,seeds,advanced/results/config.json,effective_configuration.seed_sensitivity.seeds,Abstract
+sensitivity_pairs,15,seed-scope pairs,advanced/results/seed_sensitivity_summary.csv,role=sensitivity_replication,3.8 Seed sensitivity
+sensitivity_main_top_retained,6,seed-scope pairs,advanced/results/seed_sensitivity_summary.csv,count main_representative_jointly_top_ranked,3.8 Seed sensitivity
+sensitivity_same_representative,6,seed-scope pairs,advanced/results/seed_sensitivity_summary.csv,count same_representative_as_main,3.8 Seed sensitivity
+sensitivity_worst_main_rank,6,dense rank,advanced/results/seed_sensitivity_summary.csv,max main_representative_dense_rank,3.8 Seed sensitivity
+sensitivity_primary_top_retained,two,seeds,advanced/results/seed_sensitivity_summary.csv,scope_id=retained_sample:C_selected_original,3.8 Seed sensitivity
+sensitivity_primary_top_retained_abstract,two,seeds,advanced/results/seed_sensitivity_summary.csv,scope_id=retained_sample:C_selected_original,Abstract
+sensitivity_primary_holdout_accuracy_range,0.9750–0.9833,proportion,advanced/results/seed_sensitivity_summary.csv,scope_id=retained_sample:C_selected_original holdout_accuracy_observed,3.8 Seed sensitivity
+sensitivity_primary_cv_accuracy_range,0.9810–0.9952,proportion,advanced/results/seed_sensitivity_summary.csv,scope_id=retained_sample:C_selected_original rcv_accuracy_mean,3.8 Seed sensitivity
+sensitivity_pca_cv_highest_seeds,three of the four seeds,seeds,advanced/results/seed_sensitivity_summary.csv,retained_sample scopes: seeds where B_pca_95 representative has the strictly highest rcv_accuracy_mean,4.2 Comparison with the published study
+sensitivity_pca_holdout_highest_seeds,one of the four seeds,seeds,advanced/results/seed_sensitivity_summary.csv,retained_sample scopes: seeds where B_pca_95 representative has the strictly highest holdout_accuracy_observed,4.2 Comparison with the published study
+sensitivity_retained_holdout_accuracy_min,0.9750,proportion,advanced/results/seed_sensitivity_summary.csv,retained_sample scopes holdout_accuracy_observed,3.8 Seed sensitivity
+sensitivity_retained_roc_auc_min,0.9985,area,advanced/results/seed_sensitivity_summary.csv,retained_sample scopes holdout_roc_auc_observed,3.8 Seed sensitivity
+sensitivity_table_rows,"| All originals (retained sample); seed 12 (main analysis); display representative: All originals; KNN; Extra Trees; tied at top: 1; main-analysis representative: rank 1 (tied first) | Accuracy 0.9905 ± 0.0133; ROC-AUC 1.0000 | n = 120; accuracy 0.9750; ROC-AUC 1.0000; Brier 0.0149 |
+| All originals (retained sample); seed 42; display representative: All originals; median/mode; SVM; tied at top: 1; main-analysis representative: rank 2 | Accuracy 0.9905 ± 0.0133; ROC-AUC 1.0000 | n = 120; accuracy 0.9917; ROC-AUC 0.9997; Brier 0.0073 |
+| All originals (retained sample); seed 39; display representative: All originals; median/mode; SVM; tied at top: 1; main-analysis representative: rank 4 | Accuracy 0.9917 ± 0.0133; ROC-AUC 1.0000 | n = 120; accuracy 0.9917; ROC-AUC 0.9997; Brier 0.0061 |
+| All originals (retained sample); seed 55; display representative: All originals; median/mode; Extra Trees; tied at top: 1; main-analysis representative: rank 2 | Accuracy 0.9917 ± 0.0114; ROC-AUC 1.0000 | n = 120; accuracy 0.9750; ROC-AUC 1.0000; Brier 0.0182 |
+| PCA ≥95% (retained sample); seed 12 (main analysis); display representative: PCA ≥95%; median/mode; Random Forest; tied at top: 1; main-analysis representative: rank 1 (tied first) | Accuracy 0.9940 ± 0.0087; ROC-AUC 1.0000 | n = 120; accuracy 0.9917; ROC-AUC 1.0000; Brier 0.0053 |
+| PCA ≥95% (retained sample); seed 42; display representative: PCA ≥95%; median/mode; Extra Trees; tied at top: 1; main-analysis representative: rank 6 | Accuracy 0.9893 ± 0.0132; ROC-AUC 1.0000 | n = 120; accuracy 0.9917; ROC-AUC 1.0000; Brier 0.0090 |
+| PCA ≥95% (retained sample); seed 39; display representative: PCA ≥95%; median/mode; Random Forest; tied at top: 1; main-analysis representative: rank 1 (tied first) | Accuracy 0.9940 ± 0.0087; ROC-AUC 1.0000 | n = 120; accuracy 0.9917; ROC-AUC 1.0000; Brier 0.0053 |
+| PCA ≥95% (retained sample); seed 55; display representative: PCA ≥95%; median/mode; Extra Trees; tied at top: 1; main-analysis representative: rank 6 | Accuracy 0.9964 ± 0.0074; ROC-AUC 1.0000 | n = 120; accuracy 0.9750; ROC-AUC 0.9985; Brier 0.0189 |
+| Selected originals (retained sample); seed 12 (main analysis); display representative: Selected originals; KNN; Extra Trees; tied at top: 1; main-analysis representative: rank 1 (tied first) | Accuracy 0.9869 ± 0.0218; ROC-AUC 1.0000 | n = 120; accuracy 0.9833; ROC-AUC 1.0000; Brier 0.0142 |
+| Selected originals (retained sample); seed 42; display representative: Selected originals; KNN; Extra Trees; tied at top: 1; main-analysis representative: rank 1 (tied first) | Accuracy 0.9952 ± 0.0082; ROC-AUC 1.0000 | n = 120; accuracy 0.9750; ROC-AUC 0.9994; Brier 0.0160 |
+| Selected originals (retained sample); seed 39; display representative: Selected originals; KNN; Extra Trees; tied at top: 1; main-analysis representative: rank 1 (tied first) | Accuracy 0.9881 ± 0.0129; ROC-AUC 1.0000 | n = 120; accuracy 0.9833; ROC-AUC 0.9997; Brier 0.0087 |
+| Selected originals (retained sample); seed 55; display representative: Selected originals; median/mode; Extra Trees; tied at top: 1; main-analysis representative: rank 2 | Accuracy 0.9810 ± 0.0126; ROC-AUC 1.0000 | n = 120; accuracy 0.9750; ROC-AUC 1.0000; Brier 0.0134 |
+| Complete-case sensitivity; seed 12 (main analysis); display representative: All originals; complete case; Extra Trees; tied at top: 8; main-analysis representative: rank 1 (tied first) | Accuracy 1.0000 ± 0.0000; ROC-AUC 1.0000 | n = 46; accuracy 1.0000; ROC-AUC 1.0000; Brier 0.0030 |
+| Complete-case sensitivity; seed 42; display representative: All originals; complete case; Extra Trees; tied at top: 15; main-analysis representative: rank 1 (tied first) | Accuracy 1.0000 ± 0.0000; ROC-AUC 1.0000 | n = 50; accuracy 0.9800; ROC-AUC 1.0000; Brier 0.0076 |
+| Complete-case sensitivity; seed 39; display representative: All originals; complete case; Extra Trees; tied at top: 13; main-analysis representative: rank 1 (tied first) | Accuracy 1.0000 ± 0.0000; ROC-AUC 1.0000 | n = 48; accuracy 1.0000; ROC-AUC 1.0000; Brier 0.0052 |
+| Complete-case sensitivity; seed 55; display representative: All originals; complete case; Extra Trees; tied at top: 8; main-analysis representative: rank 1 (tied first) | Accuracy 1.0000 ± 0.0000; ROC-AUC 1.0000 | n = 46; accuracy 1.0000; ROC-AUC 1.0000; Brier 0.0006 |
+| Non-PCA tree models (retained sample); seed 12 (main analysis); display representative: All originals; KNN; Extra Trees; tied at top: 1; main-analysis representative: rank 1 (tied first) | Accuracy 0.9905 ± 0.0133; ROC-AUC 1.0000 | n = 120; accuracy 0.9750; ROC-AUC 1.0000; Brier 0.0149 |
+| Non-PCA tree models (retained sample); seed 42; display representative: Selected originals; KNN; Extra Trees; tied at top: 1; main-analysis representative: rank 2 | Accuracy 0.9952 ± 0.0082; ROC-AUC 1.0000 | n = 120; accuracy 0.9750; ROC-AUC 0.9994; Brier 0.0160 |
+| Non-PCA tree models (retained sample); seed 39; display representative: Selected originals; KNN; Extra Trees; tied at top: 1; main-analysis representative: rank 4 | Accuracy 0.9881 ± 0.0129; ROC-AUC 1.0000 | n = 120; accuracy 0.9833; ROC-AUC 0.9997; Brier 0.0087 |
+| Non-PCA tree models (retained sample); seed 55; display representative: All originals; median/mode; Extra Trees; tied at top: 1; main-analysis representative: rank 2 | Accuracy 0.9917 ± 0.0114; ROC-AUC 1.0000 | n = 120; accuracy 0.9750; ROC-AUC 1.0000; Brier 0.0182 |",table rows,advanced/results/seed_sensitivity_summary.csv,"all rows (scope, then seed order)",Supplementary Table S1. Seed-sensitivity replication of the prespecified selection rule

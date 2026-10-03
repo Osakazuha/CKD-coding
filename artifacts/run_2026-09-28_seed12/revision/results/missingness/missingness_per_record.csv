@@ -1,0 +1,3 @@
+class,n_records,mean_missing_fields,median_missing_fields,share_complete_records,share_with_5_or_more_missing
+ckd,250,3.632,3.0,0.172,0.36
+non_ckd,150,0.6933333333333334,0.0,0.7666666666666667,0.04

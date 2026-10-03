@@ -1,0 +1,36 @@
+{
+  "assignments_file": "results/split_assignments.csv",
+  "development": {
+    "class_counts": {
+      "0": 105,
+      "1": 175
+    },
+    "n_rows": 280
+  },
+  "development_complete_case_sensitivity": {
+    "class_counts": {
+      "0": 81,
+      "1": 31
+    },
+    "n_rows": 112
+  },
+  "locked_historical_internal_holdout": {
+    "class_counts": {
+      "0": 45,
+      "1": 75
+    },
+    "n_rows": 120,
+    "status": "locked_historical_internal_holdout_not_evaluated"
+  },
+  "random_state": 12,
+  "schema_version": "baseline_split_v1",
+  "source_population": {
+    "class_counts": {
+      "0": 150,
+      "1": 250
+    },
+    "n_rows": 400
+  },
+  "stratification": "target_only",
+  "test_size": 0.3
+}

@@ -1,0 +1,163 @@
+policy,scenario,imputation,model,max_abs_difference_from_reference,reproduces_reference_within_1e_9,expected_to_reproduce_reference
+none,A_all_original,median_mode,Logistic Regression,0.0,True,True
+none,A_all_original,median_mode,Decision Tree,0.0,True,True
+none,A_all_original,median_mode,Random Forest,0.017857142857,False,False
+none,A_all_original,median_mode,SVM,0.0,True,True
+none,A_all_original,median_mode,KNN,0.0,True,True
+none,A_all_original,median_mode,AdaBoost,0.0,True,True
+none,A_all_original,median_mode,Gradient Boosting,0.0,True,True
+none,A_all_original,median_mode,Extra Trees,0.035714285714,False,False
+none,A_all_original,median_mode,XGBoost,0.0,True,True
+none,B_pca_95,median_mode,Logistic Regression,0.0,True,True
+none,B_pca_95,median_mode,Decision Tree,0.0,True,True
+none,B_pca_95,median_mode,Random Forest,0.017857142857,False,False
+none,B_pca_95,median_mode,SVM,0.0,True,True
+none,B_pca_95,median_mode,KNN,0.0,True,True
+none,B_pca_95,median_mode,AdaBoost,0.0,True,True
+none,B_pca_95,median_mode,Gradient Boosting,0.0,True,True
+none,B_pca_95,median_mode,Extra Trees,0.00138660294,False,False
+none,B_pca_95,median_mode,XGBoost,0.0,True,True
+none,C_selected_original,median_mode,Logistic Regression,0.0,True,True
+none,C_selected_original,median_mode,Decision Tree,0.0,True,True
+none,C_selected_original,median_mode,Random Forest,0.017857142857,False,False
+none,C_selected_original,median_mode,SVM,0.0,True,True
+none,C_selected_original,median_mode,KNN,0.0,True,True
+none,C_selected_original,median_mode,AdaBoost,0.0,True,True
+none,C_selected_original,median_mode,Gradient Boosting,0.0,True,True
+none,C_selected_original,median_mode,Extra Trees,0.035714285714,False,False
+none,C_selected_original,median_mode,XGBoost,0.0,True,True
+none,A_all_original,knn,Logistic Regression,0.0,True,True
+none,A_all_original,knn,Decision Tree,0.0,True,True
+none,A_all_original,knn,Random Forest,0.017857142857,False,False
+none,A_all_original,knn,SVM,0.0,True,True
+none,A_all_original,knn,KNN,0.0,True,True
+none,A_all_original,knn,AdaBoost,0.0,True,True
+none,A_all_original,knn,Gradient Boosting,0.0,True,True
+none,A_all_original,knn,Extra Trees,0.002076648335,False,False
+none,A_all_original,knn,XGBoost,0.0,True,True
+none,B_pca_95,knn,Logistic Regression,0.0,True,True
+none,B_pca_95,knn,Decision Tree,0.0,True,True
+none,B_pca_95,knn,Random Forest,0.00165918157,False,False
+none,B_pca_95,knn,SVM,0.0,True,True
+none,B_pca_95,knn,KNN,0.0,True,True
+none,B_pca_95,knn,AdaBoost,0.0,True,True
+none,B_pca_95,knn,Gradient Boosting,0.0,True,True
+none,B_pca_95,knn,Extra Trees,0.017857142857,False,False
+none,B_pca_95,knn,XGBoost,0.0,True,True
+none,C_selected_original,knn,Logistic Regression,0.0,True,True
+none,C_selected_original,knn,Decision Tree,0.0,True,True
+none,C_selected_original,knn,Random Forest,0.035714285714,False,False
+none,C_selected_original,knn,SVM,0.0,True,True
+none,C_selected_original,knn,KNN,0.0,True,True
+none,C_selected_original,knn,AdaBoost,0.0,True,True
+none,C_selected_original,knn,Gradient Boosting,0.0,True,True
+none,C_selected_original,knn,Extra Trees,0.017857142857,False,False
+none,C_selected_original,knn,XGBoost,0.0,True,True
+none,A_all_original,complete_case,Logistic Regression,0.0,True,True
+none,A_all_original,complete_case,Decision Tree,0.0,True,True
+none,A_all_original,complete_case,Random Forest,0.001441471552,False,False
+none,A_all_original,complete_case,SVM,0.0,True,True
+none,A_all_original,complete_case,KNN,0.0,True,True
+none,A_all_original,complete_case,AdaBoost,0.0,True,True
+none,A_all_original,complete_case,Gradient Boosting,0.0,True,True
+none,A_all_original,complete_case,Extra Trees,0.001227926176,False,False
+none,A_all_original,complete_case,XGBoost,0.0,True,True
+none,B_pca_95,complete_case,Logistic Regression,0.0,True,True
+none,B_pca_95,complete_case,Decision Tree,0.0,True,True
+none,B_pca_95,complete_case,Random Forest,0.002744497776,False,False
+none,B_pca_95,complete_case,SVM,0.0,True,True
+none,B_pca_95,complete_case,KNN,0.0,True,True
+none,B_pca_95,complete_case,AdaBoost,0.0,True,True
+none,B_pca_95,complete_case,Gradient Boosting,0.0,True,True
+none,B_pca_95,complete_case,Extra Trees,0.00162285915,False,False
+none,B_pca_95,complete_case,XGBoost,0.0,True,True
+none,C_selected_original,complete_case,Logistic Regression,0.0,True,True
+none,C_selected_original,complete_case,Decision Tree,0.0,True,True
+none,C_selected_original,complete_case,Random Forest,0.002170785026,False,False
+none,C_selected_original,complete_case,SVM,0.0,True,True
+none,C_selected_original,complete_case,KNN,0.0,True,True
+none,C_selected_original,complete_case,AdaBoost,0.0,True,True
+none,C_selected_original,complete_case,Gradient Boosting,0.0,True,True
+none,C_selected_original,complete_case,Extra Trees,0.00195436997,False,False
+none,C_selected_original,complete_case,XGBoost,0.0,True,True
+balanced,A_all_original,median_mode,Logistic Regression,0.053571428571,False,False
+balanced,A_all_original,median_mode,Decision Tree,0.062585034014,False,False
+balanced,A_all_original,median_mode,Random Forest,0.0,True,True
+balanced,A_all_original,median_mode,SVM,0.017857142857,False,False
+balanced,A_all_original,median_mode,KNN,0.0,True,True
+balanced,A_all_original,median_mode,AdaBoost,0.071428571429,False,False
+balanced,A_all_original,median_mode,Gradient Boosting,0.053571428571,False,False
+balanced,A_all_original,median_mode,Extra Trees,0.0,True,True
+balanced,A_all_original,median_mode,XGBoost,0.017857142857,False,False
+balanced,B_pca_95,median_mode,Logistic Regression,0.006751222075,False,False
+balanced,B_pca_95,median_mode,Decision Tree,0.013605442177,False,False
+balanced,B_pca_95,median_mode,Random Forest,0.0,True,True
+balanced,B_pca_95,median_mode,SVM,0.000991551122,False,False
+balanced,B_pca_95,median_mode,KNN,0.0,True,True
+balanced,B_pca_95,median_mode,AdaBoost,0.000783430369,False,False
+balanced,B_pca_95,median_mode,Gradient Boosting,0.017857142857,False,False
+balanced,B_pca_95,median_mode,Extra Trees,0.0,True,True
+balanced,B_pca_95,median_mode,XGBoost,0.004081632653,False,False
+balanced,C_selected_original,median_mode,Logistic Regression,0.017857142857,False,False
+balanced,C_selected_original,median_mode,Decision Tree,0.053571428571,False,False
+balanced,C_selected_original,median_mode,Random Forest,0.0,True,True
+balanced,C_selected_original,median_mode,SVM,0.035714285714,False,False
+balanced,C_selected_original,median_mode,KNN,0.0,True,True
+balanced,C_selected_original,median_mode,AdaBoost,0.017857142857,False,False
+balanced,C_selected_original,median_mode,Gradient Boosting,0.017857142857,False,False
+balanced,C_selected_original,median_mode,Extra Trees,0.0,True,True
+balanced,C_selected_original,median_mode,XGBoost,0.006802721088,False,False
+balanced,A_all_original,knn,Logistic Regression,0.035714285714,False,False
+balanced,A_all_original,knn,Decision Tree,0.040136054422,False,False
+balanced,A_all_original,knn,Random Forest,0.0,True,True
+balanced,A_all_original,knn,SVM,0.001360544218,False,False
+balanced,A_all_original,knn,KNN,0.0,True,True
+balanced,A_all_original,knn,AdaBoost,0.035714285714,False,False
+balanced,A_all_original,knn,Gradient Boosting,0.017857142857,False,False
+balanced,A_all_original,knn,Extra Trees,0.0,True,True
+balanced,A_all_original,knn,XGBoost,0.017857142857,False,False
+balanced,B_pca_95,knn,Logistic Regression,0.017857142857,False,False
+balanced,B_pca_95,knn,Decision Tree,0.047619047619,False,False
+balanced,B_pca_95,knn,Random Forest,0.0,True,True
+balanced,B_pca_95,knn,SVM,0.002721088435,False,False
+balanced,B_pca_95,knn,KNN,0.0,True,True
+balanced,B_pca_95,knn,AdaBoost,0.00138480242,False,False
+balanced,B_pca_95,knn,Gradient Boosting,0.035714285714,False,False
+balanced,B_pca_95,knn,Extra Trees,0.0,True,True
+balanced,B_pca_95,knn,XGBoost,0.006802721088,False,False
+balanced,C_selected_original,knn,Logistic Regression,0.053571428571,False,False
+balanced,C_selected_original,knn,Decision Tree,0.053571428571,False,False
+balanced,C_selected_original,knn,Random Forest,0.0,True,True
+balanced,C_selected_original,knn,SVM,0.017857142857,False,False
+balanced,C_selected_original,knn,KNN,0.0,True,True
+balanced,C_selected_original,knn,AdaBoost,0.035714285714,False,False
+balanced,C_selected_original,knn,Gradient Boosting,0.017857142857,False,False
+balanced,C_selected_original,knn,Extra Trees,0.0,True,True
+balanced,C_selected_original,knn,XGBoost,0.017857142857,False,False
+balanced,A_all_original,complete_case,Logistic Regression,0.003996618384,False,False
+balanced,A_all_original,complete_case,Decision Tree,0.166666666667,False,False
+balanced,A_all_original,complete_case,Random Forest,0.0,True,True
+balanced,A_all_original,complete_case,SVM,1.2238804e-05,False,False
+balanced,A_all_original,complete_case,KNN,0.0,True,True
+balanced,A_all_original,complete_case,AdaBoost,0.0043804693,False,False
+balanced,A_all_original,complete_case,Gradient Boosting,0.083333333333,False,False
+balanced,A_all_original,complete_case,Extra Trees,0.0,True,True
+balanced,A_all_original,complete_case,XGBoost,0.076923076923,False,False
+balanced,B_pca_95,complete_case,Logistic Regression,0.000131813289,False,False
+balanced,B_pca_95,complete_case,Decision Tree,0.0,True,False
+balanced,B_pca_95,complete_case,Random Forest,0.0,True,True
+balanced,B_pca_95,complete_case,SVM,2.20926e-07,False,False
+balanced,B_pca_95,complete_case,KNN,0.0,True,True
+balanced,B_pca_95,complete_case,AdaBoost,0.0,True,False
+balanced,B_pca_95,complete_case,Gradient Boosting,1.19e-10,True,False
+balanced,B_pca_95,complete_case,Extra Trees,0.0,True,True
+balanced,B_pca_95,complete_case,XGBoost,0.003823487006,False,False
+balanced,C_selected_original,complete_case,Logistic Regression,0.017857142857,False,False
+balanced,C_selected_original,complete_case,Decision Tree,0.166666666667,False,False
+balanced,C_selected_original,complete_case,Random Forest,0.0,True,True
+balanced,C_selected_original,complete_case,SVM,1.6804158e-05,False,False
+balanced,C_selected_original,complete_case,KNN,0.0,True,True
+balanced,C_selected_original,complete_case,AdaBoost,0.076923076923,False,False
+balanced,C_selected_original,complete_case,Gradient Boosting,0.083333333333,False,False
+balanced,C_selected_original,complete_case,Extra Trees,0.0,True,True
+balanced,C_selected_original,complete_case,XGBoost,0.076923076923,False,False

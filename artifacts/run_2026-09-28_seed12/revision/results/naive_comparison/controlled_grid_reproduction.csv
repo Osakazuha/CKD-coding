@@ -1,0 +1,82 @@
+scenario,imputation,model,max_abs_difference_from_advanced,reproduces_advanced_within_1e_9
+A_all_original,median_mode,Logistic Regression,0.0,True
+A_all_original,median_mode,Decision Tree,0.0,True
+A_all_original,median_mode,Random Forest,0.0,True
+A_all_original,median_mode,SVM,0.0,True
+A_all_original,median_mode,KNN,0.0,True
+A_all_original,median_mode,AdaBoost,0.0,True
+A_all_original,median_mode,Gradient Boosting,0.0,True
+A_all_original,median_mode,Extra Trees,0.0,True
+A_all_original,median_mode,XGBoost,0.0,True
+B_pca_95,median_mode,Logistic Regression,0.0,True
+B_pca_95,median_mode,Decision Tree,0.0,True
+B_pca_95,median_mode,Random Forest,0.0,True
+B_pca_95,median_mode,SVM,0.0,True
+B_pca_95,median_mode,KNN,0.0,True
+B_pca_95,median_mode,AdaBoost,0.0,True
+B_pca_95,median_mode,Gradient Boosting,0.0,True
+B_pca_95,median_mode,Extra Trees,0.0,True
+B_pca_95,median_mode,XGBoost,0.0,True
+C_selected_original,median_mode,Logistic Regression,0.0,True
+C_selected_original,median_mode,Decision Tree,0.0,True
+C_selected_original,median_mode,Random Forest,0.0,True
+C_selected_original,median_mode,SVM,0.0,True
+C_selected_original,median_mode,KNN,0.0,True
+C_selected_original,median_mode,AdaBoost,0.0,True
+C_selected_original,median_mode,Gradient Boosting,0.0,True
+C_selected_original,median_mode,Extra Trees,0.0,True
+C_selected_original,median_mode,XGBoost,0.0,True
+A_all_original,knn,Logistic Regression,0.0,True
+A_all_original,knn,Decision Tree,0.0,True
+A_all_original,knn,Random Forest,0.0,True
+A_all_original,knn,SVM,0.0,True
+A_all_original,knn,KNN,0.0,True
+A_all_original,knn,AdaBoost,0.0,True
+A_all_original,knn,Gradient Boosting,0.0,True
+A_all_original,knn,Extra Trees,0.0,True
+A_all_original,knn,XGBoost,0.0,True
+B_pca_95,knn,Logistic Regression,0.0,True
+B_pca_95,knn,Decision Tree,0.0,True
+B_pca_95,knn,Random Forest,0.0,True
+B_pca_95,knn,SVM,0.0,True
+B_pca_95,knn,KNN,0.0,True
+B_pca_95,knn,AdaBoost,0.0,True
+B_pca_95,knn,Gradient Boosting,0.0,True
+B_pca_95,knn,Extra Trees,0.0,True
+B_pca_95,knn,XGBoost,0.0,True
+C_selected_original,knn,Logistic Regression,0.0,True
+C_selected_original,knn,Decision Tree,0.0,True
+C_selected_original,knn,Random Forest,0.0,True
+C_selected_original,knn,SVM,0.0,True
+C_selected_original,knn,KNN,0.0,True
+C_selected_original,knn,AdaBoost,0.0,True
+C_selected_original,knn,Gradient Boosting,0.0,True
+C_selected_original,knn,Extra Trees,0.0,True
+C_selected_original,knn,XGBoost,0.0,True
+A_all_original,complete_case,Logistic Regression,0.0,True
+A_all_original,complete_case,Decision Tree,0.0,True
+A_all_original,complete_case,Random Forest,0.0,True
+A_all_original,complete_case,SVM,0.0,True
+A_all_original,complete_case,KNN,0.0,True
+A_all_original,complete_case,AdaBoost,0.0,True
+A_all_original,complete_case,Gradient Boosting,0.0,True
+A_all_original,complete_case,Extra Trees,0.0,True
+A_all_original,complete_case,XGBoost,0.0,True
+B_pca_95,complete_case,Logistic Regression,0.0,True
+B_pca_95,complete_case,Decision Tree,0.0,True
+B_pca_95,complete_case,Random Forest,0.0,True
+B_pca_95,complete_case,SVM,0.0,True
+B_pca_95,complete_case,KNN,0.0,True
+B_pca_95,complete_case,AdaBoost,0.0,True
+B_pca_95,complete_case,Gradient Boosting,0.0,True
+B_pca_95,complete_case,Extra Trees,0.0,True
+B_pca_95,complete_case,XGBoost,0.0,True
+C_selected_original,complete_case,Logistic Regression,0.0,True
+C_selected_original,complete_case,Decision Tree,0.0,True
+C_selected_original,complete_case,Random Forest,0.0,True
+C_selected_original,complete_case,SVM,0.0,True
+C_selected_original,complete_case,KNN,0.0,True
+C_selected_original,complete_case,AdaBoost,0.0,True
+C_selected_original,complete_case,Gradient Boosting,0.0,True
+C_selected_original,complete_case,Extra Trees,0.0,True
+C_selected_original,complete_case,XGBoost,0.0,True

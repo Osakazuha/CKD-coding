@@ -1,0 +1,647 @@
+scenario,imputation,model,row_id,target,prediction,probability_ckd
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":4}",1,1,0.9693622649310928
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":5}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":8}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":10}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":13}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":15}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":19}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":20}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":22}",1,1,0.9439336890314544
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":26}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":28}",1,1,0.955773376451959
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":30}",1,1,0.981565106416313
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":32}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":33}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":36}",1,1,0.9954354268234394
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":40}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":45}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":55}",1,1,0.9586185994842988
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":62}",1,1,0.9904347826086957
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":63}",1,1,0.9935001861524817
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":65}",1,1,0.9176124508959227
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":66}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":72}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":76}",1,1,0.9946056056250486
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":82}",1,1,0.9907303735547748
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":93}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":94}",1,1,0.9779755920080818
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":98}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":115}",1,1,0.8562964896746825
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":117}",1,0,0.38285449292944346
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":120}",1,1,0.9338467532420399
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":128}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":129}",1,1,0.9823763736263735
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":133}",1,1,0.9984848484848485
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":136}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":142}",1,1,0.9474291132109719
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":143}",1,1,0.9963877869936291
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":145}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":147}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":151}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":154}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":155}",1,1,0.901770212953028
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":157}",1,1,0.9864302240279894
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":158}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":161}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":164}",1,1,0.9847823005737297
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":165}",1,1,0.7721194330434048
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":169}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":171}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":172}",1,1,0.9822683038900766
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":174}",1,1,0.5731474731977994
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":175}",1,1,0.9784695728613871
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":179}",1,1,0.985377511719337
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":181}",1,1,0.8540365494457488
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":185}",1,1,0.8534294399600725
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":187}",1,1,0.973244869464713
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":189}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":194}",1,1,0.9966666666666667
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":195}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":204}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":205}",1,1,0.9966666666666667
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":209}",1,0,0.22458092289051768
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":214}",1,1,0.9280769574674665
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":216}",1,1,0.7555981980381972
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":217}",1,1,0.9935658914728681
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":218}",1,1,0.7989678395717743
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":223}",1,1,0.9968253968253968
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":224}",1,0,0.4589095627247544
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":231}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":232}",1,1,0.993802944321079
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":233}",1,1,0.9856142423528543
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":234}",1,1,0.9343391304342302
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":235}",1,1,0.9744656559827105
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":236}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":248}",1,1,1.0
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":253}",0,0,0.029687179027842483
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":254}",0,0,0.03989337469075644
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":263}",0,0,0.028773292374364167
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":272}",0,0,0.037610419092015415
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":275}",0,0,0.051985555867435744
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":277}",0,0,0.018963070299235926
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":280}",0,0,0.05101145216604465
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":282}",0,0,0.04859866035945735
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":285}",0,0,0.04764526927844576
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":287}",0,0,0.03737857659613453
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":294}",0,0,0.052873377900597
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":295}",0,0,0.027814521589665273
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":299}",0,0,0.03836555427571296
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":306}",0,0,0.03493597926449685
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":309}",0,0,0.046352141487968
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":315}",0,0,0.0488386537806966
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":318}",0,0,0.02256059395494258
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":323}",0,0,0.029970803372473435
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":324}",0,0,0.03890916799642573
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":325}",0,0,0.03698362992878296
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":326}",0,0,0.039296901961755455
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":329}",0,0,0.028951585149112617
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":332}",0,0,0.01878477769407637
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":338}",0,0,0.04919275044573604
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":339}",0,0,0.058691581139173506
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":346}",0,0,0.03399731328067491
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":347}",0,0,0.02261507787089965
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":350}",0,0,0.0357319194230947
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":354}",0,0,0.026718687323328928
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":357}",0,0,0.05109096526288998
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":359}",0,0,0.044883689627065335
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":360}",0,0,0.025429649269850498
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":362}",0,0,0.031775048473051924
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":367}",0,0,0.022792231060701915
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":368}",0,0,0.019319460235420374
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":369}",0,0,0.06419402240831895
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":373}",0,0,0.03424405769172673
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":378}",0,0,0.038779930948238936
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":379}",0,0,0.019457185070279912
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":380}",0,0,0.03106679689669506
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":383}",0,0,0.023115190786613005
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":384}",0,0,0.04687571820104366
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":391}",0,0,0.021991310147933357
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":392}",0,0,0.03747146461484301
+A_all_original,knn,Extra Trees,"{""type"":""int"",""value"":397}",0,0,0.054947894626570376
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":4}",1,1,0.9888888888888888
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":5}",1,1,0.9890574866310161
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":8}",1,1,0.9802263014763016
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":10}",1,1,1.0
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":13}",1,1,0.9612418300653595
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":15}",1,1,0.9984848484848483
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":19}",1,1,0.9868181818181818
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":20}",1,1,0.9945833333333334
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":22}",1,1,0.9686363636363637
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":26}",1,1,0.9946279264214047
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":28}",1,1,0.9925
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":30}",1,1,0.9931642512077296
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":32}",1,1,0.9945833333333334
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":33}",1,1,0.9979166666666667
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":36}",1,1,1.0
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":40}",1,1,0.9979166666666667
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":45}",1,1,0.9984848484848483
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":55}",1,1,0.9922348484848483
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":62}",1,1,0.9930681818181817
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":63}",1,1,0.9991666666666666
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":65}",1,1,0.9821707459207459
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":66}",1,1,0.9855681818181818
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":72}",1,1,0.9330771402510533
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":76}",1,1,0.9726515151515152
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":82}",1,1,0.9984848484848483
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":93}",1,1,0.9133215395715395
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":94}",1,1,0.987142857142857
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":98}",1,1,0.9869055944055944
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":115}",1,1,0.9822348484848485
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":117}",1,1,0.8514507422402159
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":120}",1,1,0.9720833333333333
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":128}",1,1,0.9800595238095237
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":129}",1,1,0.9915530303030304
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":133}",1,1,0.9855681818181818
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":136}",1,1,0.9984848484848485
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":142}",1,1,0.9606768774703558
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":143}",1,1,0.9930681818181817
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":145}",1,1,0.9688066100566101
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":147}",1,1,0.9918777056277056
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":151}",1,1,0.9783333333333334
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":154}",1,1,0.9802389277389276
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":155}",1,1,0.9958333333333333
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":157}",1,1,0.9866025641025641
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":158}",1,1,0.9879392389366813
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":161}",1,1,0.9787544563279857
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":164}",1,1,0.996401515151515
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":165}",1,1,0.9861029411764706
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":169}",1,1,0.9783333333333334
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":171}",1,1,0.994642857142857
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":172}",1,1,0.9891025641025641
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":174}",1,1,0.9433071095571095
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":175}",1,1,0.9805555555555554
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":179}",1,1,0.9845192307692308
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":181}",1,1,0.9716944330179624
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":185}",1,1,0.980920745920746
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":187}",1,1,0.9781275832011126
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":189}",1,1,0.9853030303030305
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":194}",1,1,0.9958333333333333
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":195}",1,1,0.9825277663512958
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":204}",1,1,0.975892857142857
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":205}",1,1,0.9967261904761904
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":209}",1,0,0.40794304551657484
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":214}",1,1,0.968901515151515
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":216}",1,1,0.9624927849927851
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":217}",1,1,0.9922348484848486
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":218}",1,1,0.9810058248387769
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":223}",1,1,0.9945833333333334
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":224}",1,1,0.9626515151515153
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":231}",1,1,0.9732692307692308
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":232}",1,1,0.9905040792540792
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":233}",1,1,0.9904166666666666
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":234}",1,1,0.9861958874458875
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":235}",1,1,0.9948529411764705
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":236}",1,1,0.9666025641025641
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":248}",1,1,0.938472222222222
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":253}",0,0,0.005707070707070707
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":254}",0,0,0.004583333333333333
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":263}",0,0,0.0
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":272}",0,0,0.05517676767676767
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":275}",0,0,0.032612665112665105
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":277}",0,0,0.014583333333333334
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":280}",0,0,0.0
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":282}",0,0,0.15192626817626817
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":285}",0,0,0.01
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":287}",0,0,0.0
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":294}",0,0,0.08068084693084693
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":295}",0,0,0.20770550527903467
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":299}",0,0,0.05708333333333333
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":306}",0,0,0.040967643467643464
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":309}",0,0,0.0
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":315}",0,0,0.0033333333333333335
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":318}",0,0,0.007916666666666667
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":323}",0,0,0.0
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":324}",0,0,0.07772435897435896
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":325}",0,0,0.0025
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":326}",0,0,0.0
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":329}",0,0,0.0033333333333333335
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":332}",0,0,0.057499877573406986
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":338}",0,0,0.024248102466793167
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":339}",0,0,0.16249708624708625
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":346}",0,0,0.041666666666666664
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":347}",0,0,0.004583333333333333
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":350}",0,0,0.023333333333333334
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":354}",0,0,0.0048529411764705885
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":357}",0,0,0.17208416583416583
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":359}",0,0,0.016666666666666666
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":360}",0,0,0.0
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":362}",0,0,0.024743589743589745
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":367}",0,0,0.027518115942028985
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":368}",0,0,0.0020192307692307693
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":369}",0,0,0.10098484848484848
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":373}",0,0,0.0
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":378}",0,0,0.018333333333333333
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":379}",0,0,0.024583333333333332
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":380}",0,0,0.0
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":383}",0,0,0.14491161616161616
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":384}",0,0,0.13833416583416583
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":391}",0,0,0.0
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":392}",0,0,0.0
+B_pca_95,median_mode,Random Forest,"{""type"":""int"",""value"":397}",0,0,0.14623883966275272
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":4}",1,1,0.9972222222222222
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":5}",1,1,0.9997395833333333
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":8}",1,1,0.9997395833333333
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":10}",1,1,1.0
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":13}",1,1,0.9921712622744542
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":15}",1,1,0.9997395833333333
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":19}",1,1,1.0
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":20}",1,1,0.9997395833333333
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":22}",1,1,0.9880187537361076
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":26}",1,1,0.9974208795131309
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":28}",1,1,0.9153944189808527
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":30}",1,1,0.9921712622744542
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":32}",1,1,1.0
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":33}",1,1,0.9997395833333333
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":36}",1,1,1.0
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":40}",1,1,1.0
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":45}",1,1,0.9997395833333333
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":55}",1,1,0.9755365092650631
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":62}",1,1,0.9997395833333333
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":63}",1,1,1.0
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":65}",1,1,0.970590083983408
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":66}",1,1,0.9997395833333333
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":72}",1,1,1.0
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":76}",1,1,0.9732231757284978
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":82}",1,1,0.9909807860839781
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":93}",1,1,1.0
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":94}",1,1,0.9616741857717203
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":98}",1,1,0.9921712622744542
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":115}",1,1,0.9102246289561987
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":117}",1,1,0.5458997376423287
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":120}",1,1,0.8343860541341221
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":128}",1,1,0.9997395833333333
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":129}",1,1,0.9939173082927797
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":133}",1,1,1.0
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":136}",1,1,0.9859546847343474
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":142}",1,0,0.16222802255232605
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":143}",1,1,0.9821963427979667
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":145}",1,1,0.9997395833333333
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":147}",1,1,1.0
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":151}",1,1,0.9921712622744542
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":154}",1,1,0.9997395833333333
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":155}",1,1,0.9531178264021016
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":157}",1,1,0.9847312919624074
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":158}",1,1,0.9997395833333333
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":161}",1,1,1.0
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":164}",1,1,0.9041160541879659
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":165}",1,0,0.46018417924765886
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":169}",1,1,1.0
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":171}",1,1,0.9997395833333333
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":172}",1,1,0.9958333333333333
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":174}",1,1,0.6836136373582301
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":175}",1,1,0.9972972972972972
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":179}",1,1,0.99479797979798
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":181}",1,1,0.8908429085440298
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":185}",1,1,0.9321421869746482
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":187}",1,1,0.9957070707070709
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":189}",1,1,1.0
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":194}",1,1,0.997003745318352
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":195}",1,1,0.9997395833333333
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":204}",1,1,0.9969696969696971
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":205}",1,1,0.9474236730325356
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":209}",1,1,0.6820416803730839
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":214}",1,1,0.8843393348003877
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":216}",1,1,0.9331509476770353
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":217}",1,1,0.9989247311827957
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":218}",1,1,0.920700992390639
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":223}",1,1,0.9952797202797202
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":224}",1,1,0.6240605712703712
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":231}",1,1,0.9900879289411209
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":232}",1,1,0.9948619204033946
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":233}",1,1,0.9933759469696971
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":234}",1,1,0.9738957163586929
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":235}",1,1,0.9962418300653595
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":236}",1,1,0.9921712622744542
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":248}",1,1,1.0
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":253}",0,0,0.02925896746079865
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":254}",0,0,0.03650406304855794
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":263}",0,0,0.031589208780265575
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":272}",0,0,0.020997009067314432
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":275}",0,0,0.053541677254751695
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":277}",0,0,0.0143319583572785
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":280}",0,0,0.04893159674727433
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":282}",0,0,0.05761777699614992
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":285}",0,0,0.053498356346607136
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":287}",0,0,0.027950068912099873
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":294}",0,0,0.08792231375776037
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":295}",0,0,0.021069153479401435
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":299}",0,0,0.023950576704588642
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":306}",0,0,0.02664778843541528
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":309}",0,0,0.06054859285088306
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":315}",0,0,0.057411228886963685
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":318}",0,0,0.012799783090219003
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":323}",0,0,0.016843508211256533
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":324}",0,0,0.05463640599419534
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":325}",0,0,0.03366927272785832
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":326}",0,0,0.043887818359241375
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":329}",0,0,0.014079379169304336
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":332}",0,0,0.013692843207089217
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":338}",0,0,0.04588538551770748
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":339}",0,0,0.06623213830002177
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":346}",0,0,0.025405797408762407
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":347}",0,0,0.012100307335431717
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":350}",0,0,0.020226289340999223
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":354}",0,0,0.0162090139149366
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":357}",0,0,0.03234205582640251
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":359}",0,0,0.02933091949554805
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":360}",0,0,0.024569142311006487
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":362}",0,0,0.030485052005087117
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":367}",0,0,0.014605348691114057
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":368}",0,0,0.015197407942821938
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":369}",0,0,0.04619135211949327
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":373}",0,0,0.019673699075341434
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":378}",0,0,0.022318845193579274
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":379}",0,0,0.014047681842746226
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":380}",0,0,0.026466635908273098
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":383}",0,0,0.01664681968119899
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":384}",0,0,0.06125035362172997
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":391}",0,0,0.017489188519035206
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":392}",0,0,0.027338160847225876
+C_selected_original,knn,Extra Trees,"{""type"":""int"",""value"":397}",0,0,0.025162063076338902
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":20}",1,1,1.0
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":22}",1,1,0.9294160190411109
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":76}",1,1,0.9370504541231304
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":93}",1,1,1.0
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":128}",1,1,0.9966666666666667
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":133}",1,1,0.8299789238309233
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":147}",1,1,0.9867272872845395
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":157}",1,1,0.9292817715655527
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":171}",1,1,0.8695130459430054
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":181}",1,1,0.7761789387019072
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":189}",1,1,1.0
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":248}",1,1,0.9936733837111672
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":253}",0,0,0.024091536353668938
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":254}",0,0,0.038809035988795905
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":263}",0,0,0.018528796592796163
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":272}",0,0,0.020704852039726114
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":275}",0,0,0.02256021823947151
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":277}",0,0,0.02008788021909672
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":282}",0,0,0.03087506811770691
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":285}",0,0,0.03835265865703815
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":299}",0,0,0.03877324723930116
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":306}",0,0,0.027272780047878586
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":318}",0,0,0.04175355348963725
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":323}",0,0,0.023235050476980827
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":325}",0,0,0.02716667792420408
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":326}",0,0,0.01818048981423751
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":329}",0,0,0.020784264731435704
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":338}",0,0,0.031040297240965097
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":339}",0,0,0.02712290397183325
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":347}",0,0,0.0164517923679929
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":354}",0,0,0.014887040126877296
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":357}",0,0,0.048211776885175
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":359}",0,0,0.03170978510701074
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":360}",0,0,0.025792606564805323
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":362}",0,0,0.03167418336219361
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":367}",0,0,0.033927835062929595
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":368}",0,0,0.011410793189996445
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":369}",0,0,0.02696065086839388
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":373}",0,0,0.032137354930212886
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":379}",0,0,0.026917836529930444
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":380}",0,0,0.025837086269945134
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":383}",0,0,0.02096493704466237
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":384}",0,0,0.04582945066939536
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":391}",0,0,0.01647318189638701
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":392}",0,0,0.022555012704892952
+A_all_original,complete_case,Extra Trees,"{""type"":""int"",""value"":397}",0,0,0.018686800417749592
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":4}",1,1,0.9989720582962036
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":5}",1,1,0.9893838763237
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":8}",1,1,0.9991884827613831
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":10}",1,1,0.9992276430130005
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":13}",1,1,0.9939950108528137
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":15}",1,1,0.9965773224830627
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":19}",1,1,0.9989123344421387
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":20}",1,1,0.9984412789344788
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":22}",1,1,0.9966461062431335
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":26}",1,1,0.998218834400177
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":28}",1,1,0.9976617097854614
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":30}",1,1,0.9837565422058105
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":32}",1,1,0.9984412789344788
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":33}",1,1,0.9981319308280945
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":36}",1,1,0.9974921941757202
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":40}",1,1,0.9987855553627014
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":45}",1,1,0.9966357350349426
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":55}",1,1,0.9984692931175232
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":62}",1,1,0.9325190782546997
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":63}",1,1,0.998130738735199
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":65}",1,1,0.8915897607803345
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":66}",1,1,0.9956152439117432
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":72}",1,1,0.9992334842681885
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":76}",1,1,0.9983276724815369
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":82}",1,1,0.9760730266571045
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":93}",1,1,0.9984523057937622
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":94}",1,1,0.9980390667915344
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":98}",1,1,0.9944198727607727
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":115}",1,1,0.9496268033981323
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":117}",1,1,0.9967556595802307
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":120}",1,1,0.9984453320503235
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":128}",1,1,0.9984276294708252
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":129}",1,1,0.9971463084220886
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":133}",1,1,0.9890901446342468
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":136}",1,1,0.9938690066337585
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":142}",1,1,0.9844382405281067
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":143}",1,1,0.9977409839630127
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":145}",1,1,0.998357355594635
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":147}",1,1,0.9982603192329407
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":151}",1,1,0.9960179924964905
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":154}",1,1,0.9984387755393982
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":155}",1,1,0.9979197382926941
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":157}",1,1,0.9978511333465576
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":158}",1,1,0.9970542192459106
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":161}",1,1,0.9721254706382751
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":164}",1,1,0.8379438519477844
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":165}",1,1,0.970313549041748
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":169}",1,1,0.9990994930267334
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":171}",1,1,0.9945909976959229
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":172}",1,1,0.9957165122032166
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":174}",1,1,0.992197573184967
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":175}",1,1,0.9962981343269348
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":179}",1,1,0.9991294741630554
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":181}",1,1,0.997031569480896
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":185}",1,1,0.9435182213783264
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":187}",1,1,0.9970769882202148
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":189}",1,1,0.9989425539970398
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":194}",1,1,0.998359739780426
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":195}",1,1,0.9980900883674622
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":204}",1,1,0.9983125925064087
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":205}",1,1,0.9892086386680603
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":209}",1,1,0.9649197459220886
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":214}",1,1,0.9371110796928406
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":216}",1,1,0.9688274264335632
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":217}",1,1,0.9975603818893433
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":218}",1,1,0.9813061356544495
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":223}",1,1,0.9900863766670227
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":224}",1,1,0.9852526783943176
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":231}",1,1,0.9977376461029053
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":232}",1,1,0.9984827637672424
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":233}",1,1,0.9962558746337891
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":234}",1,1,0.72933030128479
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":235}",1,1,0.9988823533058167
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":236}",1,1,0.9934660792350769
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":248}",1,1,0.9990229606628418
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":253}",0,0,0.014078974723815918
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":254}",0,0,0.01897916942834854
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":263}",0,0,0.00932606216520071
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":272}",0,0,0.13241517543792725
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":275}",0,0,0.03760315850377083
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":277}",0,0,0.013416762463748455
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":280}",0,0,0.003573675872758031
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":282}",0,0,0.012948215007781982
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":285}",0,0,0.007759666536003351
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":287}",0,0,0.057396482676267624
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":294}",0,0,0.01230799499899149
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":295}",0,0,0.003100684145465493
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":299}",0,0,0.01261499710381031
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":306}",0,0,0.007964439690113068
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":309}",0,0,0.03066929243505001
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":315}",0,0,0.14871753752231598
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":318}",0,0,0.01337885670363903
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":323}",0,0,0.013050489127635956
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":324}",0,0,0.27051985263824463
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":325}",0,0,0.008620277047157288
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":326}",0,0,0.0035503271501511335
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":329}",0,0,0.007681593764573336
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":332}",0,0,0.0057603116147220135
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":338}",0,0,0.015078908763825893
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":339}",0,0,0.007695162668824196
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":346}",0,0,0.00540870800614357
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":347}",0,0,0.004764538258314133
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":350}",0,0,0.014748860150575638
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":354}",0,0,0.005500460974872112
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":357}",0,0,0.012986506335437298
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":359}",0,0,0.007421007379889488
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":360}",0,0,0.008331767283380032
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":362}",0,0,0.032292742282152176
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":367}",0,0,0.0184102114289999
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":368}",0,0,0.004099436569958925
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":369}",0,0,0.00948446337133646
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":373}",0,0,0.014150709845125675
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":378}",0,0,0.008011827245354652
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":379}",0,0,0.012321212328970432
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":380}",0,0,0.008978293277323246
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":383}",0,0,0.008216992020606995
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":384}",0,0,0.014072509482502937
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":391}",0,0,0.006128282286226749
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":392}",0,0,0.011251985095441341
+A_all_original,median_mode,XGBoost,"{""type"":""int"",""value"":397}",0,0,0.008663613349199295
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":4}",1,1,0.9970026612281799
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":5}",1,1,0.9966788291931152
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":8}",1,1,0.9942161440849304
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":10}",1,1,0.9972671270370483
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":13}",1,1,0.9944785833358765
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":15}",1,1,0.9974433183670044
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":19}",1,1,0.9973024129867554
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":20}",1,1,0.9955151677131653
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":22}",1,1,0.9950665235519409
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":26}",1,1,0.9966423511505127
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":28}",1,1,0.9962339997291565
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":30}",1,1,0.9960418939590454
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":32}",1,1,0.9953351616859436
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":33}",1,1,0.9952759742736816
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":36}",1,1,0.9978823065757751
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":40}",1,1,0.9975033402442932
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":45}",1,1,0.9941660165786743
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":55}",1,1,0.9975021481513977
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":62}",1,1,0.9979877471923828
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":63}",1,1,0.9972426891326904
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":65}",1,1,0.9972637891769409
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":66}",1,1,0.9952227473258972
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":72}",1,1,0.9943200349807739
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":76}",1,1,0.9960485100746155
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":82}",1,1,0.9953722357749939
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":93}",1,1,0.9901039004325867
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":94}",1,1,0.9967718720436096
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":98}",1,1,0.9940707087516785
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":115}",1,1,0.9972378015518188
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":117}",1,1,0.9830436110496521
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":120}",1,1,0.9948287606239319
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":128}",1,1,0.9958305954933167
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":129}",1,1,0.9963125586509705
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":133}",1,1,0.9951423406600952
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":136}",1,1,0.9965406060218811
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":142}",1,1,0.9925947785377502
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":143}",1,1,0.9969310760498047
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":145}",1,1,0.9956186413764954
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":147}",1,1,0.995779275894165
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":151}",1,1,0.9894126057624817
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":154}",1,1,0.9967626333236694
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":155}",1,1,0.9941577911376953
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":157}",1,1,0.9960162043571472
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":158}",1,1,0.9958160519599915
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":161}",1,1,0.9966148734092712
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":164}",1,1,0.9969033598899841
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":165}",1,1,0.994056224822998
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":169}",1,1,0.9948602318763733
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":171}",1,1,0.9946350455284119
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":172}",1,1,0.9972311854362488
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":174}",1,1,0.9944296479225159
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":175}",1,1,0.9974568486213684
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":179}",1,1,0.9952576756477356
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":181}",1,1,0.9966232776641846
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":185}",1,1,0.9977926015853882
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":187}",1,1,0.9975395202636719
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":189}",1,1,0.9946520328521729
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":194}",1,1,0.9976142644882202
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":195}",1,1,0.9937130808830261
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":204}",1,1,0.9935518503189087
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":205}",1,1,0.9960700273513794
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":209}",1,1,0.6336418390274048
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":214}",1,1,0.9950609803199768
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":216}",1,1,0.996059775352478
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":217}",1,1,0.9967119693756104
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":218}",1,1,0.9958521127700806
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":223}",1,1,0.9962653517723083
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":224}",1,1,0.9962050318717957
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":231}",1,1,0.994968831539154
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":232}",1,1,0.9954864382743835
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":233}",1,1,0.9945526719093323
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":234}",1,1,0.9966307282447815
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":235}",1,1,0.9972444772720337
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":236}",1,1,0.9950683116912842
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":248}",1,1,0.9951775074005127
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":253}",0,0,0.006421832367777824
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":254}",0,0,0.006096984259784222
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":263}",0,0,0.00467294966802001
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":272}",0,0,0.00691989203915
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":275}",0,0,0.00560938473790884
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":277}",0,0,0.006666209083050489
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":280}",0,0,0.003690499346703291
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":282}",0,0,0.01745769940316677
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":285}",0,0,0.005061030853539705
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":287}",0,0,0.01519168820232153
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":294}",0,0,0.01541438139975071
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":295}",0,0,0.010602328926324844
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":299}",0,0,0.00571599043905735
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":306}",0,0,0.005397412460297346
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":309}",0,0,0.004989222157746553
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":315}",0,0,0.01534605585038662
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":318}",0,0,0.004956343676894903
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":323}",0,0,0.005442076828330755
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":324}",0,0,0.033074166625738144
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":325}",0,0,0.004343295469880104
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":326}",0,0,0.005288821645081043
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":329}",0,0,0.006694023963063955
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":332}",0,0,0.009530800394713879
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":338}",0,0,0.003851271001622081
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":339}",0,0,0.008341843262314796
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":346}",0,0,0.007466673385351896
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":347}",0,0,0.0057584005407989025
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":350}",0,0,0.005981447175145149
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":354}",0,0,0.00740642799064517
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":357}",0,0,0.014615258201956749
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":359}",0,0,0.004261189606040716
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":360}",0,0,0.006324416492134333
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":362}",0,0,0.007638269569724798
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":367}",0,0,0.004956343676894903
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":368}",0,0,0.007404794450849295
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":369}",0,0,0.07054196298122406
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":373}",0,0,0.014615258201956749
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":378}",0,0,0.005791072268038988
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":379}",0,0,0.004897268023341894
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":380}",0,0,0.004989222157746553
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":383}",0,0,0.017220813781023026
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":384}",0,0,0.01763247512280941
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":391}",0,0,0.005509190261363983
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":392}",0,0,0.0037273087073117495
+B_pca_95,median_mode,XGBoost,"{""type"":""int"",""value"":397}",0,0,0.01617376320064068

@@ -1,0 +1,33 @@
+{
+  "after": {
+    "baseline/baseline_manifest.json": "6f2ba58f746841c17e9550baffb5f2af74d2865feceef075bceb0713d5864663",
+    "baseline/reports/reproduction_report.md": "a4949df69dbf1893097925a35ad38f6f4df36772016f5be2c1cda786d6321e30",
+    "baseline/results/config.json": "0ab4c4b2ab910cf6b879c8bf7040165b4a0628613dbf1bd75802de0268eb8e46",
+    "baseline/results/cv_fold_scores.csv": "2c39ad3834225daace0b08994734593e243f04c314ca9c50dc25be39d1e806c4",
+    "baseline/results/cv_split_registry.csv": "581c4a8d02697baedd0cee78d9f59a5728a7b44b7828fd690c7dea4d02a83e5e",
+    "baseline/results/data_audit.json": "540a5839b0a1f85755e16a0c6ca94ed2ba996684ce6fff837e5577ba9cfdfb9b",
+    "baseline/results/figures/model_comparison.png": "484d73a65dfe031794ba4dd934e00224387697710a68c2aa0fe16fd5f0227c1f",
+    "baseline/results/model_comparison.csv": "2d79fdb7e6d56d7dfc9e57ac2c8358b66f4ad45b6712b3071dc7e1a831ca28bb",
+    "baseline/results/selection_manifest.json": "a4901e95b2eb5241d882890d72b330c566e63093702dbfdcd67e949c03baf836",
+    "baseline/results/split_assignments.csv": "0423e5fe57c03f2a5cbd010069380775e9c39b436ad5db72fe30721350e7ce18",
+    "baseline/results/split_manifest.json": "07f3c3c92e9a9fbd1115f972a97d5b1e9f5a2cd4b520609413300a7068bf5ad2",
+    "baseline/run.log": "694993a07619339c847f14e63037dfb04661b15f195356f23847e58bdf866fbb"
+  },
+  "baseline_manifest_sha256": "6f2ba58f746841c17e9550baffb5f2af74d2865feceef075bceb0713d5864663",
+  "before": {
+    "baseline/baseline_manifest.json": "6f2ba58f746841c17e9550baffb5f2af74d2865feceef075bceb0713d5864663",
+    "baseline/reports/reproduction_report.md": "a4949df69dbf1893097925a35ad38f6f4df36772016f5be2c1cda786d6321e30",
+    "baseline/results/config.json": "0ab4c4b2ab910cf6b879c8bf7040165b4a0628613dbf1bd75802de0268eb8e46",
+    "baseline/results/cv_fold_scores.csv": "2c39ad3834225daace0b08994734593e243f04c314ca9c50dc25be39d1e806c4",
+    "baseline/results/cv_split_registry.csv": "581c4a8d02697baedd0cee78d9f59a5728a7b44b7828fd690c7dea4d02a83e5e",
+    "baseline/results/data_audit.json": "540a5839b0a1f85755e16a0c6ca94ed2ba996684ce6fff837e5577ba9cfdfb9b",
+    "baseline/results/figures/model_comparison.png": "484d73a65dfe031794ba4dd934e00224387697710a68c2aa0fe16fd5f0227c1f",
+    "baseline/results/model_comparison.csv": "2d79fdb7e6d56d7dfc9e57ac2c8358b66f4ad45b6712b3071dc7e1a831ca28bb",
+    "baseline/results/selection_manifest.json": "a4901e95b2eb5241d882890d72b330c566e63093702dbfdcd67e949c03baf836",
+    "baseline/results/split_assignments.csv": "0423e5fe57c03f2a5cbd010069380775e9c39b436ad5db72fe30721350e7ce18",
+    "baseline/results/split_manifest.json": "07f3c3c92e9a9fbd1115f972a97d5b1e9f5a2cd4b520609413300a7068bf5ad2",
+    "baseline/run.log": "694993a07619339c847f14e63037dfb04661b15f195356f23847e58bdf866fbb"
+  },
+  "schema_version": "baseline_integrity_v2",
+  "status": "verified_unchanged"
+}

@@ -1,0 +1,13 @@
+policy,scope_id,scenario,imputation,model,top_tie_count,rcv_accuracy_mean,rcv_roc_auc_mean,rcv_f1_mean,main_representative_scenario,main_representative_imputation,main_representative_model,same_representative_as_main,main_representative_dense_rank,main_representative_jointly_top_ranked,spearman_rho_retained_accuracy_vs_main
+none,retained_sample,B_pca_95,median_mode,Random Forest,1,0.992857142857143,1.0,0.9941744813867578,B_pca_95,median_mode,Random Forest,True,1,True,0.9868569658817564
+none,retained_sample:A_all_original,A_all_original,median_mode,Extra Trees,1,0.9916666666666667,1.0,0.9932082978118785,A_all_original,knn,Extra Trees,False,2,False,0.9868569658817564
+none,retained_sample:B_pca_95,B_pca_95,median_mode,Random Forest,1,0.992857142857143,1.0,0.9941744813867578,B_pca_95,median_mode,Random Forest,True,1,True,0.9868569658817564
+none,retained_sample:C_selected_original,C_selected_original,median_mode,Extra Trees,1,0.9904761904761905,1.0,0.9922136970730322,C_selected_original,knn,Extra Trees,False,2,False,0.9868569658817564
+none,complete_case_sensitivity,A_all_original,complete_case,Extra Trees,8,1.0,1.0,1.0,A_all_original,complete_case,Extra Trees,True,1,True,0.9868569658817564
+none,retained_tree_non_pca,A_all_original,median_mode,Extra Trees,1,0.9916666666666667,1.0,0.9932082978118785,A_all_original,knn,Extra Trees,False,2,False,0.9868569658817564
+balanced,retained_sample,B_pca_95,median_mode,Random Forest,1,0.9940476190476192,1.0,0.9951690821256041,B_pca_95,median_mode,Random Forest,True,1,True,0.986212434384815
+balanced,retained_sample:A_all_original,A_all_original,knn,Extra Trees,1,0.9904761904761905,1.0,0.9922136970730321,A_all_original,knn,Extra Trees,True,1,True,0.986212434384815
+balanced,retained_sample:B_pca_95,B_pca_95,median_mode,Random Forest,1,0.9940476190476192,1.0,0.9951690821256041,B_pca_95,median_mode,Random Forest,True,1,True,0.986212434384815
+balanced,retained_sample:C_selected_original,C_selected_original,knn,Extra Trees,1,0.986904761904762,1.0,0.9891642199106713,C_selected_original,knn,Extra Trees,True,1,True,0.986212434384815
+balanced,complete_case_sensitivity,A_all_original,complete_case,Extra Trees,8,1.0,1.0,1.0,A_all_original,complete_case,Extra Trees,True,1,True,0.986212434384815
+balanced,retained_tree_non_pca,A_all_original,knn,Extra Trees,1,0.9904761904761905,1.0,0.9922136970730321,A_all_original,knn,Extra Trees,True,1,True,0.986212434384815

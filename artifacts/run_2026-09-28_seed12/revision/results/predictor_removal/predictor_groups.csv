@@ -1,0 +1,25 @@
+feature,group,role_relative_to_diagnosis
+sc,renal_function_markers,definitional: serum creatinine underlies eGFR staging; urea rises with reduced filtration
+bu,renal_function_markers,definitional: serum creatinine underlies eGFR staging; urea rises with reduced filtration
+al,urinary_damage_markers,definitional or diagnostic work-up: albuminuria and urinalysis findings are KDIGO markers of kidney damage
+sg,urinary_damage_markers,definitional or diagnostic work-up: albuminuria and urinalysis findings are KDIGO markers of kidney damage
+rbc,urinary_damage_markers,definitional or diagnostic work-up: albuminuria and urinalysis findings are KDIGO markers of kidney damage
+pc,urinary_damage_markers,definitional or diagnostic work-up: albuminuria and urinalysis findings are KDIGO markers of kidney damage
+pcc,urinary_damage_markers,definitional or diagnostic work-up: albuminuria and urinalysis findings are KDIGO markers of kidney damage
+ba,urinary_damage_markers,definitional or diagnostic work-up: albuminuria and urinalysis findings are KDIGO markers of kidney damage
+hemo,hematologic_consequences,consequence of established disease (renal anemia) or general hematology ordered in the work-up
+pcv,hematologic_consequences,consequence of established disease (renal anemia) or general hematology ordered in the work-up
+rbcc,hematologic_consequences,consequence of established disease (renal anemia) or general hematology ordered in the work-up
+ane,hematologic_consequences,consequence of established disease (renal anemia) or general hematology ordered in the work-up
+wbcc,hematologic_consequences,consequence of established disease (renal anemia) or general hematology ordered in the work-up
+sod,electrolytes,consequence of reduced excretion
+pot,electrolytes,consequence of reduced excretion
+bgr,metabolic_and_comorbidity,risk factors and comorbidities that can precede diagnosis
+su,metabolic_and_comorbidity,risk factors and comorbidities that can precede diagnosis
+htn,metabolic_and_comorbidity,risk factors and comorbidities that can precede diagnosis
+dm,metabolic_and_comorbidity,risk factors and comorbidities that can precede diagnosis
+cad,metabolic_and_comorbidity,risk factors and comorbidities that can precede diagnosis
+appet,symptoms_and_signs,late uremic symptoms and signs
+pe,symptoms_and_signs,late uremic symptoms and signs
+age,demographics_and_vital_signs,available before diagnosis
+bp,demographics_and_vital_signs,available before diagnosis

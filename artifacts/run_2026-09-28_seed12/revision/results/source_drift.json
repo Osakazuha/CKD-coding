@@ -1,0 +1,6 @@
+{
+  "compared_against": "baseline results/config.json reviewed_source_sha256",
+  "drifted_files": {},
+  "schema_version": "source_drift_v1",
+  "scientific_sources_unchanged": true
+}

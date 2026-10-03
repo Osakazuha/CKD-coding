@@ -1,0 +1,84 @@
+baseline experiment started
+mode=release
+candidate 1/81: A_all_original | median_mode | Logistic Regression
+candidate 2/81: A_all_original | median_mode | Decision Tree
+candidate 3/81: A_all_original | median_mode | Random Forest
+candidate 4/81: A_all_original | median_mode | SVM
+candidate 5/81: A_all_original | median_mode | KNN
+candidate 6/81: A_all_original | median_mode | AdaBoost
+candidate 7/81: A_all_original | median_mode | Gradient Boosting
+candidate 8/81: A_all_original | median_mode | Extra Trees
+candidate 9/81: A_all_original | median_mode | XGBoost
+candidate 10/81: B_pca_95 | median_mode | Logistic Regression
+candidate 11/81: B_pca_95 | median_mode | Decision Tree
+candidate 12/81: B_pca_95 | median_mode | Random Forest
+candidate 13/81: B_pca_95 | median_mode | SVM
+candidate 14/81: B_pca_95 | median_mode | KNN
+candidate 15/81: B_pca_95 | median_mode | AdaBoost
+candidate 16/81: B_pca_95 | median_mode | Gradient Boosting
+candidate 17/81: B_pca_95 | median_mode | Extra Trees
+candidate 18/81: B_pca_95 | median_mode | XGBoost
+candidate 19/81: C_selected_original | median_mode | Logistic Regression
+candidate 20/81: C_selected_original | median_mode | Decision Tree
+candidate 21/81: C_selected_original | median_mode | Random Forest
+candidate 22/81: C_selected_original | median_mode | SVM
+candidate 23/81: C_selected_original | median_mode | KNN
+candidate 24/81: C_selected_original | median_mode | AdaBoost
+candidate 25/81: C_selected_original | median_mode | Gradient Boosting
+candidate 26/81: C_selected_original | median_mode | Extra Trees
+candidate 27/81: C_selected_original | median_mode | XGBoost
+candidate 28/81: A_all_original | knn | Logistic Regression
+candidate 29/81: A_all_original | knn | Decision Tree
+candidate 30/81: A_all_original | knn | Random Forest
+candidate 31/81: A_all_original | knn | SVM
+candidate 32/81: A_all_original | knn | KNN
+candidate 33/81: A_all_original | knn | AdaBoost
+candidate 34/81: A_all_original | knn | Gradient Boosting
+candidate 35/81: A_all_original | knn | Extra Trees
+candidate 36/81: A_all_original | knn | XGBoost
+candidate 37/81: B_pca_95 | knn | Logistic Regression
+candidate 38/81: B_pca_95 | knn | Decision Tree
+candidate 39/81: B_pca_95 | knn | Random Forest
+candidate 40/81: B_pca_95 | knn | SVM
+candidate 41/81: B_pca_95 | knn | KNN
+candidate 42/81: B_pca_95 | knn | AdaBoost
+candidate 43/81: B_pca_95 | knn | Gradient Boosting
+candidate 44/81: B_pca_95 | knn | Extra Trees
+candidate 45/81: B_pca_95 | knn | XGBoost
+candidate 46/81: C_selected_original | knn | Logistic Regression
+candidate 47/81: C_selected_original | knn | Decision Tree
+candidate 48/81: C_selected_original | knn | Random Forest
+candidate 49/81: C_selected_original | knn | SVM
+candidate 50/81: C_selected_original | knn | KNN
+candidate 51/81: C_selected_original | knn | AdaBoost
+candidate 52/81: C_selected_original | knn | Gradient Boosting
+candidate 53/81: C_selected_original | knn | Extra Trees
+candidate 54/81: C_selected_original | knn | XGBoost
+candidate 55/81: A_all_original | complete_case | Logistic Regression
+candidate 56/81: A_all_original | complete_case | Decision Tree
+candidate 57/81: A_all_original | complete_case | Random Forest
+candidate 58/81: A_all_original | complete_case | SVM
+candidate 59/81: A_all_original | complete_case | KNN
+candidate 60/81: A_all_original | complete_case | AdaBoost
+candidate 61/81: A_all_original | complete_case | Gradient Boosting
+candidate 62/81: A_all_original | complete_case | Extra Trees
+candidate 63/81: A_all_original | complete_case | XGBoost
+candidate 64/81: B_pca_95 | complete_case | Logistic Regression
+candidate 65/81: B_pca_95 | complete_case | Decision Tree
+candidate 66/81: B_pca_95 | complete_case | Random Forest
+candidate 67/81: B_pca_95 | complete_case | SVM
+candidate 68/81: B_pca_95 | complete_case | KNN
+candidate 69/81: B_pca_95 | complete_case | AdaBoost
+candidate 70/81: B_pca_95 | complete_case | Gradient Boosting
+candidate 71/81: B_pca_95 | complete_case | Extra Trees
+candidate 72/81: B_pca_95 | complete_case | XGBoost
+candidate 73/81: C_selected_original | complete_case | Logistic Regression
+candidate 74/81: C_selected_original | complete_case | Decision Tree
+candidate 75/81: C_selected_original | complete_case | Random Forest
+candidate 76/81: C_selected_original | complete_case | SVM
+candidate 77/81: C_selected_original | complete_case | KNN
+candidate 78/81: C_selected_original | complete_case | AdaBoost
+candidate 79/81: C_selected_original | complete_case | Gradient Boosting
+candidate 80/81: C_selected_original | complete_case | Extra Trees
+candidate 81/81: C_selected_original | complete_case | XGBoost
+outputs validated; ready for atomic completion

@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+tmp/
+# run-local artifact roots and run logs are not committed, except the released run cited in the manuscript
+artifacts/*
+!artifacts/run_2026-09-28_seed12/
+logs/

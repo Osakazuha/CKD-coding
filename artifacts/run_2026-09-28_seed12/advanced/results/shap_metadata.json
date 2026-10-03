@@ -1,0 +1,15 @@
+{
+  "additivity_tolerance": 1e-09,
+  "explained_class": 1,
+  "explained_output": "raw",
+  "explained_rows": "locked_historical_internal_holdout_features",
+  "grouping": "signed_sum_per_observation_then_mean_absolute",
+  "imputation": "knn",
+  "model": "Extra Trees",
+  "n_observations": 120,
+  "n_original_variables": 24,
+  "n_transformed_columns": 47,
+  "scenario": "A_all_original",
+  "top_grouped_variable": "htn",
+  "top_transformed_feature": "al_0"
+}

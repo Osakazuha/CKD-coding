@@ -1,0 +1,54 @@
+{
+  "main_seed": 12,
+  "populations": {
+    "complete_case": {
+      "class_counts": {
+        "0": 81,
+        "1": 31
+      },
+      "n_rows": 112,
+      "registry_hash": "d4c6dfce28de997dab0070c9bdeba3ac00c9a05b41d5be53648f0ae33168cbe8"
+    },
+    "full_sample": {
+      "class_counts": {
+        "0": 105,
+        "1": 175
+      },
+      "n_rows": 280,
+      "registry_hash": "cb779f2301e1c7a5bfb9679a01ce33157e9c77764580b26aa6475e4f550cc4b4"
+    }
+  },
+  "schema_version": "registry_verification_v1",
+  "seed_replications": {
+    "39": {
+      "complete_case": {
+        "n_rows": 110,
+        "registry_hash": "faaa62f0ba8e74be3fcc6b24c738c2401eb2acaa11fae461ac787878340a6efc"
+      },
+      "full_sample": {
+        "n_rows": 280,
+        "registry_hash": "694f9c737bab75d65391163d3170445d1779db7f0fd20a40fd66c89d2fe158b2"
+      }
+    },
+    "42": {
+      "complete_case": {
+        "n_rows": 108,
+        "registry_hash": "4ef8b0e78aa486d751fce4230ac48a4a0bbe75805d434a4623d733528df1dfd1"
+      },
+      "full_sample": {
+        "n_rows": 280,
+        "registry_hash": "88836ca6f0def71101fc38fdf8518c2184363b280086ef347f22219f40d66062"
+      }
+    },
+    "55": {
+      "complete_case": {
+        "n_rows": 112,
+        "registry_hash": "383499513a6554e4acc531999c6e03b8af2f0ffa0441dc1977d5524aebb0daa9"
+      },
+      "full_sample": {
+        "n_rows": 280,
+        "registry_hash": "84672ab77aae0a75e907b5803f15c3c534a73c5cac3ddffc225e47324c1277e7"
+      }
+    }
+  }
+}

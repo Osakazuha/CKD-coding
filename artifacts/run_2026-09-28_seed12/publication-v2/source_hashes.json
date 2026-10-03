@@ -1,0 +1,18 @@
+{
+  "advanced/advanced_manifest.json": "e550d905f33427856acf0c4ba17534f49f2c21cb3638b503ad3598dae8123f96",
+  "advanced/results/ablation_results.csv": "54222222c7d31a6e25e875449fecdbaadb2bdd8e5b3015421ac7de543089eac7",
+  "advanced/results/calibration_metrics.csv": "c04e0de55dc3b26f2e6c3dc1c6eaccfec4907faa4748c3cf4e311555c6f1d4b4",
+  "advanced/results/config.json": "bd2b04f3c411585c3ea10cd22583afe904687239580cd9d7d6253a49beee9e2f",
+  "advanced/results/holdout_evaluation.csv": "2a6eed70ee50294d7716d8845461897ada70e393c9ec1604d9238bc9104d9126",
+  "advanced/results/model_comparison_repeated_cv.csv": "8ed0bcfbc4d760b8742acd469a7cc3778b49513f72b45c785da9fac026c8c360",
+  "advanced/results/ordinal_sensitivity.csv": "9136ea43ca8baa1db08af786d32cb133d1d5346ec140c4fccc54833f775e8fc4",
+  "advanced/results/pca_explained_variance.csv": "b7ff936747f00704543bf9ab2ce6c8f9f9a556a06adf2a6eb9f5c2d1647b6268",
+  "advanced/results/seed_sensitivity_summary.csv": "d234da73c03fc8ed419d10632354ec16ba24d1cedeedad24369e6579ec8ee795",
+  "advanced/results/selection_manifest.json": "5ceef3632b4db9fd52d00e882baa16c3e8c09d26574d331f8ed2dfd459532012",
+  "advanced/results/shap_importance_grouped.csv": "3fc8f9a47193ced371d85784dfc47e403e9aebedc73999c3310878e217e644b0",
+  "advanced/results/shap_importance_transformed.csv": "141abfa3777eda1e7f11a4aa0e0bedf480ce0a0e0a401f9340fd67d2e809ae79",
+  "baseline/baseline_manifest.json": "6f2ba58f746841c17e9550baffb5f2af74d2865feceef075bceb0713d5864663",
+  "baseline/results/data_audit.json": "540a5839b0a1f85755e16a0c6ca94ed2ba996684ce6fff837e5577ba9cfdfb9b",
+  "baseline/results/model_comparison.csv": "2d79fdb7e6d56d7dfc9e57ac2c8358b66f4ad45b6712b3071dc7e1a831ca28bb",
+  "baseline/results/split_manifest.json": "07f3c3c92e9a9fbd1115f972a97d5b1e9f5a2cd4b520609413300a7068bf5ad2"
+}

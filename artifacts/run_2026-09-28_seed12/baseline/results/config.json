@@ -1,0 +1,108 @@
+{
+  "diagnostic_reasons": [],
+  "effective_configuration": {
+    "class_weight_policy": {
+      "Extra Trees": "balanced",
+      "Random Forest": "balanced",
+      "other_models": "registered_factory_defaults"
+    },
+    "cv": {
+      "n_splits": 5,
+      "random_state": 12,
+      "scheme": "baseline_stratified_5fold",
+      "shuffle": true
+    },
+    "grid": {
+      "candidate_count": 81,
+      "imputations": [
+        "median_mode",
+        "knn",
+        "complete_case"
+      ],
+      "model_filter_present": false,
+      "models": [
+        "Logistic Regression",
+        "Decision Tree",
+        "Random Forest",
+        "SVM",
+        "KNN",
+        "AdaBoost",
+        "Gradient Boosting",
+        "Extra Trees",
+        "XGBoost"
+      ],
+      "scenarios": [
+        "A_all_original",
+        "B_pca_95",
+        "C_selected_original"
+      ]
+    },
+    "pca": {
+      "display_name": "Level-weighted expanded-feature PCA",
+      "feature_weighting": "unit_variance_per_expanded_feature",
+      "input_basis": "full_nominal_one_hot_blocks",
+      "representation": "level_weighted_expanded_feature_pca",
+      "svd_solver": "full",
+      "variance_target": 0.95
+    },
+    "random_state": 12,
+    "selection": {
+      "basis": "training_cross_validation_only",
+      "metric_order": [
+        "roc_auc",
+        "f1",
+        "accuracy"
+      ],
+      "quantization_decimal_places": 12,
+      "selection_uses_holdout": false,
+      "technical_example_label": "display_representative",
+      "tie_label": "jointly_top_ranked"
+    },
+    "split": {
+      "random_state": 12,
+      "stratification": "target_only",
+      "test_size": 0.3
+    }
+  },
+  "input": {
+    "path": "data/chronic_kidney_disease_full.xlsx",
+    "sha256": "194ea65d5a4a80b726077aa07495ecc17d146879f6ba83e4905a656b93453889"
+  },
+  "release_eligible": true,
+  "reviewed_source_sha256": {
+    "run_experiment.py": "3476ec061de601f332b65addfbe17bdb1e08a47bd9c463c86472d48e24799eb0",
+    "src/artifact_layout.py": "ccb466e154621269f956cdcaf39f583d2081920f1e3bf8d6f9d57e8ee236ebd6",
+    "src/baseline_experiment.py": "1ded1256473389f0d3e24805ce2e1e343dc3cff306604031bcb4a23c230dc59f",
+    "src/data_preprocessing.py": "1e70eab21c712ab4be1b1249110610d95ca1a7f730b9c1e760dd87db26a4e1f9",
+    "src/evaluate_models.py": "49e9d4b4b079c1db474767f93f675a5eb082b976ee0e54356b1eb25851baff02",
+    "src/feature_selection.py": "3c87f91d1a8868ab9e767b49fc02ba0d04a20dc952ebd6dc2da449e06da7a331",
+    "src/model_selection.py": "a9eeb55e91fb7d9878b1fd5f93bc67a68609363e4d0613ec11bd5ab6c3eb1e8e",
+    "src/models/__init__.py": "6f877ed73dac55f5a6e621a53304a5e7ef00f465efa8a209b740a43d1b753172",
+    "src/models/adaboost.py": "9dac97b6a16779257d4ac1c6730a7e325b0f60cdbc78b7fc543946208b8a7a30",
+    "src/models/decision_tree.py": "0d338e7df7dd45ca8f9be492d558cf148d65359805bf138222206de8b86990ae",
+    "src/models/extra_trees.py": "ca11aa1e0b165ed42c325550b6741abdf247bfc6f4c08823826abdaeaf146dc4",
+    "src/models/gradient_boosting.py": "9a08bad22d13ace58a2557620cff20fefe3bf10fbc91fcb314f706aa95dd982c",
+    "src/models/knn.py": "413a6af7350fe2ff9c275820b46258cc6857843f2eb326ad69f61543fe26c5a4",
+    "src/models/logistic_regression.py": "14b78295ea1a162e5842f60cd8533f548f65287dc687c7422cfb4b8211529654",
+    "src/models/random_forest.py": "aeefbae10abf76cbe55ee7394c74b409721d8c4ac6fec182eef0c38db417d968",
+    "src/models/svm.py": "db2387d3c977241a621b4a6129bd3e9a95730da4574c345edf5eb43a12838809",
+    "src/models/xgboost_model.py": "a99f9fa90930730e06e7ac9182b693c8708456565aef33f70eed601a5d6beec4",
+    "src/reproduction_report.py": "c393dd1f544e70b534538b159726af2707381f65e28d5837e21a604c4e10e2ea",
+    "src/split_registry.py": "a300edc17db1346adaf27d7bbaa0336e021ed564a2f66400c75c36d61f6f9894",
+    "src/train_models.py": "473ce32d0cf63cda3284781faa70222906837bbad438bd55325ed61581b60968"
+  },
+  "run_kind": "release",
+  "runtime_versions": {
+    "matplotlib": "3.9.4",
+    "numpy": "2.0.2",
+    "openpyxl": "3.1.5",
+    "pandas": "2.3.3",
+    "python": "3.9.6",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.13.1",
+    "seaborn": "0.13.2",
+    "xgboost": "2.1.4"
+  },
+  "schema_version": "baseline_config_v1",
+  "stage": "baseline"
+}

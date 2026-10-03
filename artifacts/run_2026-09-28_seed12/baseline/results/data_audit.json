@@ -1,0 +1,60 @@
+{
+  "cleaned_shape": [
+    400,
+    25
+  ],
+  "dropped_extra_columns": [
+    "unnamed_25"
+  ],
+  "invalid_categories_set_to_missing": {},
+  "invalid_targets_dropped": {},
+  "missing_by_feature": {
+    "age": 9,
+    "al": 46,
+    "ane": 1,
+    "appet": 1,
+    "ba": 4,
+    "bgr": 44,
+    "bp": 12,
+    "bu": 19,
+    "cad": 2,
+    "dm": 2,
+    "hemo": 52,
+    "htn": 2,
+    "pc": 65,
+    "pcc": 4,
+    "pcv": 71,
+    "pe": 1,
+    "pot": 88,
+    "rbc": 152,
+    "rbcc": 131,
+    "sc": 17,
+    "sg": 47,
+    "sod": 87,
+    "su": 49,
+    "wbcc": 106
+  },
+  "numeric_strings_coerced_to_missing": {
+    "age": 0,
+    "bgr": 0,
+    "bp": 0,
+    "bu": 0,
+    "hemo": 0,
+    "pcv": 0,
+    "pot": 0,
+    "rbcc": 0,
+    "sc": 0,
+    "sod": 0,
+    "wbcc": 0
+  },
+  "original_shape": [
+    400,
+    26
+  ],
+  "shifted_rows_repaired": 1,
+  "source": "data/chronic_kidney_disease_full.xlsx",
+  "target_distribution": {
+    "0": 150,
+    "1": 250
+  }
+}

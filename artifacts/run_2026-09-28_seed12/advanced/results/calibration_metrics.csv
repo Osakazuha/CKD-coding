@@ -1,0 +1,4 @@
+scenario,imputation,model,source_scope_id,n_holdout,brier_score,ece_equal_width_10,calibration_display_bins_requested,calibration_display_bins_realized,ece_bins_requested,ece_bins_occupied
+A_all_original,knn,Extra Trees,retained_sample:A_all_original,120,0.01487225661200724,0.05000156003512135,10,8,10,8
+B_pca_95,median_mode,Random Forest,retained_sample:B_pca_95,120,0.005319658820323827,0.03246939513773794,10,10,10,6
+C_selected_original,knn,Extra Trees,retained_sample:C_selected_original,120,0.014218641524564033,0.04656443776283741,10,9,10,7

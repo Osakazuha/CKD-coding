@@ -1,0 +1,411 @@
+revision experiment started
+mode=release
+random_state=12 (inherited from baseline)
+sensitivity_seeds=[42, 39, 55] (inherited from advanced)
+n_imputations=20
+nested_outer_limit=None
+main registries re-materialized and verified against the advanced stage
+seed replication registries re-materialized and verified
+stage 2/7: missingness mechanism, indicator classifiers, multiple imputation
+missingness indicator classifier: Logistic Regression
+missingness indicator classifier: Extra Trees
+multiple imputation: A_all_original | knn | Extra Trees with m=20
+multiple imputation: B_pca_95 | median_mode | Random Forest with m=20
+multiple imputation: C_selected_original | knn | Extra Trees with m=20
+stage 3/7: feature-selection stability
+selection stability: seed=12 imputation=median_mode population=full_sample n=280 {1: 175, 0: 105}
+selection stability: seed=12 imputation=knn population=full_sample n=280 {1: 175, 0: 105}
+selection stability: seed=12 imputation=complete_case population=complete_case n=112 {0: 81, 1: 31}
+selection stability: seed=42 imputation=median_mode population=full_sample n=280 {1: 175, 0: 105}
+selection stability: seed=42 imputation=knn population=full_sample n=280 {1: 175, 0: 105}
+selection stability: seed=42 imputation=complete_case population=complete_case n=108 {0: 78, 1: 30}
+selection stability: seed=39 imputation=median_mode population=full_sample n=280 {1: 175, 0: 105}
+selection stability: seed=39 imputation=knn population=full_sample n=280 {1: 175, 0: 105}
+selection stability: seed=39 imputation=complete_case population=complete_case n=110 {0: 80, 1: 30}
+selection stability: seed=55 imputation=median_mode population=full_sample n=280 {1: 175, 0: 105}
+selection stability: seed=55 imputation=knn population=full_sample n=280 {1: 175, 0: 105}
+selection stability: seed=55 imputation=complete_case population=complete_case n=112 {0: 82, 1: 30}
+stage 4/7: predictor removal
+predictor removal 1/21 for A_all_original | knn | Extra Trees: all_fields (retain 24 fields)
+predictor removal 2/21 for A_all_original | knn | Extra Trees: drop_renal_function_markers (retain 22 fields)
+predictor removal 3/21 for A_all_original | knn | Extra Trees: drop_urinary_damage_markers (retain 18 fields)
+predictor removal 4/21 for A_all_original | knn | Extra Trees: drop_hematologic_consequences (retain 19 fields)
+predictor removal 5/21 for A_all_original | knn | Extra Trees: drop_electrolytes (retain 22 fields)
+predictor removal 6/21 for A_all_original | knn | Extra Trees: drop_metabolic_and_comorbidity (retain 19 fields)
+predictor removal 7/21 for A_all_original | knn | Extra Trees: drop_symptoms_and_signs (retain 22 fields)
+predictor removal 8/21 for A_all_original | knn | Extra Trees: drop_renal_and_urinary (retain 16 fields)
+predictor removal 9/21 for A_all_original | knn | Extra Trees: drop_renal_urinary_hematologic (retain 11 fields)
+predictor removal 10/21 for A_all_original | knn | Extra Trees: drop_all_consequences_and_markers (retain 7 fields)
+predictor removal 11/21 for A_all_original | knn | Extra Trees: keep_only_renal_function_markers (retain 2 fields)
+predictor removal 12/21 for A_all_original | knn | Extra Trees: keep_only_creatinine_and_albumin (retain 2 fields)
+predictor removal 13/21 for A_all_original | knn | Extra Trees: keep_only_comorbidity_and_demographics (retain 7 fields)
+predictor removal 14/21 for A_all_original | knn | Extra Trees: drop_top_1_grouped_shap (retain 23 fields)
+predictor removal 15/21 for A_all_original | knn | Extra Trees: drop_top_2_grouped_shap (retain 22 fields)
+predictor removal 16/21 for A_all_original | knn | Extra Trees: drop_top_3_grouped_shap (retain 21 fields)
+predictor removal 17/21 for A_all_original | knn | Extra Trees: drop_top_4_grouped_shap (retain 20 fields)
+predictor removal 18/21 for A_all_original | knn | Extra Trees: drop_top_5_grouped_shap (retain 19 fields)
+predictor removal 19/21 for A_all_original | knn | Extra Trees: drop_top_6_grouped_shap (retain 18 fields)
+predictor removal 20/21 for A_all_original | knn | Extra Trees: drop_top_7_grouped_shap (retain 17 fields)
+predictor removal 21/21 for A_all_original | knn | Extra Trees: drop_top_8_grouped_shap (retain 16 fields)
+predictor removal 1/21 for C_selected_original | knn | Extra Trees: all_fields (retain 24 fields)
+predictor removal 2/21 for C_selected_original | knn | Extra Trees: drop_renal_function_markers (retain 22 fields)
+predictor removal 3/21 for C_selected_original | knn | Extra Trees: drop_urinary_damage_markers (retain 18 fields)
+predictor removal 4/21 for C_selected_original | knn | Extra Trees: drop_hematologic_consequences (retain 19 fields)
+predictor removal 5/21 for C_selected_original | knn | Extra Trees: drop_electrolytes (retain 22 fields)
+predictor removal 6/21 for C_selected_original | knn | Extra Trees: drop_metabolic_and_comorbidity (retain 19 fields)
+predictor removal 7/21 for C_selected_original | knn | Extra Trees: drop_symptoms_and_signs (retain 22 fields)
+predictor removal 8/21 for C_selected_original | knn | Extra Trees: drop_renal_and_urinary (retain 16 fields)
+predictor removal 9/21 for C_selected_original | knn | Extra Trees: drop_renal_urinary_hematologic (retain 11 fields)
+predictor removal 10/21 for C_selected_original | knn | Extra Trees: drop_all_consequences_and_markers (retain 7 fields)
+predictor removal 11/21 for C_selected_original | knn | Extra Trees: keep_only_renal_function_markers (retain 2 fields)
+predictor removal 12/21 for C_selected_original | knn | Extra Trees: keep_only_creatinine_and_albumin (retain 2 fields)
+predictor removal 13/21 for C_selected_original | knn | Extra Trees: keep_only_comorbidity_and_demographics (retain 7 fields)
+predictor removal 14/21 for C_selected_original | knn | Extra Trees: drop_top_1_grouped_shap (retain 23 fields)
+predictor removal 15/21 for C_selected_original | knn | Extra Trees: drop_top_2_grouped_shap (retain 22 fields)
+predictor removal 16/21 for C_selected_original | knn | Extra Trees: drop_top_3_grouped_shap (retain 21 fields)
+predictor removal 17/21 for C_selected_original | knn | Extra Trees: drop_top_4_grouped_shap (retain 20 fields)
+predictor removal 18/21 for C_selected_original | knn | Extra Trees: drop_top_5_grouped_shap (retain 19 fields)
+predictor removal 19/21 for C_selected_original | knn | Extra Trees: drop_top_6_grouped_shap (retain 18 fields)
+predictor removal 20/21 for C_selected_original | knn | Extra Trees: drop_top_7_grouped_shap (retain 17 fields)
+predictor removal 21/21 for C_selected_original | knn | Extra Trees: drop_top_8_grouped_shap (retain 16 fields)
+stage 5/7: naive versus leakage-controlled analyses
+naive comparison 1/81: A_all_original | median_mode | Logistic Regression
+naive comparison 2/81: A_all_original | median_mode | Decision Tree
+naive comparison 3/81: A_all_original | median_mode | Random Forest
+naive comparison 4/81: A_all_original | median_mode | SVM
+naive comparison 5/81: A_all_original | median_mode | KNN
+naive comparison 6/81: A_all_original | median_mode | AdaBoost
+naive comparison 7/81: A_all_original | median_mode | Gradient Boosting
+naive comparison 8/81: A_all_original | median_mode | Extra Trees
+naive comparison 9/81: A_all_original | median_mode | XGBoost
+naive comparison 10/81: B_pca_95 | median_mode | Logistic Regression
+naive comparison 11/81: B_pca_95 | median_mode | Decision Tree
+naive comparison 12/81: B_pca_95 | median_mode | Random Forest
+naive comparison 13/81: B_pca_95 | median_mode | SVM
+naive comparison 14/81: B_pca_95 | median_mode | KNN
+naive comparison 15/81: B_pca_95 | median_mode | AdaBoost
+naive comparison 16/81: B_pca_95 | median_mode | Gradient Boosting
+naive comparison 17/81: B_pca_95 | median_mode | Extra Trees
+naive comparison 18/81: B_pca_95 | median_mode | XGBoost
+naive comparison 19/81: C_selected_original | median_mode | Logistic Regression
+naive comparison 20/81: C_selected_original | median_mode | Decision Tree
+naive comparison 21/81: C_selected_original | median_mode | Random Forest
+naive comparison 22/81: C_selected_original | median_mode | SVM
+naive comparison 23/81: C_selected_original | median_mode | KNN
+naive comparison 24/81: C_selected_original | median_mode | AdaBoost
+naive comparison 25/81: C_selected_original | median_mode | Gradient Boosting
+naive comparison 26/81: C_selected_original | median_mode | Extra Trees
+naive comparison 27/81: C_selected_original | median_mode | XGBoost
+naive comparison 28/81: A_all_original | knn | Logistic Regression
+naive comparison 29/81: A_all_original | knn | Decision Tree
+naive comparison 30/81: A_all_original | knn | Random Forest
+naive comparison 31/81: A_all_original | knn | SVM
+naive comparison 32/81: A_all_original | knn | KNN
+naive comparison 33/81: A_all_original | knn | AdaBoost
+naive comparison 34/81: A_all_original | knn | Gradient Boosting
+naive comparison 35/81: A_all_original | knn | Extra Trees
+naive comparison 36/81: A_all_original | knn | XGBoost
+naive comparison 37/81: B_pca_95 | knn | Logistic Regression
+naive comparison 38/81: B_pca_95 | knn | Decision Tree
+naive comparison 39/81: B_pca_95 | knn | Random Forest
+naive comparison 40/81: B_pca_95 | knn | SVM
+naive comparison 41/81: B_pca_95 | knn | KNN
+naive comparison 42/81: B_pca_95 | knn | AdaBoost
+naive comparison 43/81: B_pca_95 | knn | Gradient Boosting
+naive comparison 44/81: B_pca_95 | knn | Extra Trees
+naive comparison 45/81: B_pca_95 | knn | XGBoost
+naive comparison 46/81: C_selected_original | knn | Logistic Regression
+naive comparison 47/81: C_selected_original | knn | Decision Tree
+naive comparison 48/81: C_selected_original | knn | Random Forest
+naive comparison 49/81: C_selected_original | knn | SVM
+naive comparison 50/81: C_selected_original | knn | KNN
+naive comparison 51/81: C_selected_original | knn | AdaBoost
+naive comparison 52/81: C_selected_original | knn | Gradient Boosting
+naive comparison 53/81: C_selected_original | knn | Extra Trees
+naive comparison 54/81: C_selected_original | knn | XGBoost
+naive comparison 55/81: A_all_original | complete_case | Logistic Regression
+naive comparison 56/81: A_all_original | complete_case | Decision Tree
+naive comparison 57/81: A_all_original | complete_case | Random Forest
+naive comparison 58/81: A_all_original | complete_case | SVM
+naive comparison 59/81: A_all_original | complete_case | KNN
+naive comparison 60/81: A_all_original | complete_case | AdaBoost
+naive comparison 61/81: A_all_original | complete_case | Gradient Boosting
+naive comparison 62/81: A_all_original | complete_case | Extra Trees
+naive comparison 63/81: A_all_original | complete_case | XGBoost
+naive comparison 64/81: B_pca_95 | complete_case | Logistic Regression
+naive comparison 65/81: B_pca_95 | complete_case | Decision Tree
+naive comparison 66/81: B_pca_95 | complete_case | Random Forest
+naive comparison 67/81: B_pca_95 | complete_case | SVM
+naive comparison 68/81: B_pca_95 | complete_case | KNN
+naive comparison 69/81: B_pca_95 | complete_case | AdaBoost
+naive comparison 70/81: B_pca_95 | complete_case | Gradient Boosting
+naive comparison 71/81: B_pca_95 | complete_case | Extra Trees
+naive comparison 72/81: B_pca_95 | complete_case | XGBoost
+naive comparison 73/81: C_selected_original | complete_case | Logistic Regression
+naive comparison 74/81: C_selected_original | complete_case | Decision Tree
+naive comparison 75/81: C_selected_original | complete_case | Random Forest
+naive comparison 76/81: C_selected_original | complete_case | SVM
+naive comparison 77/81: C_selected_original | complete_case | KNN
+naive comparison 78/81: C_selected_original | complete_case | AdaBoost
+naive comparison 79/81: C_selected_original | complete_case | Gradient Boosting
+naive comparison 80/81: C_selected_original | complete_case | Extra Trees
+naive comparison 81/81: C_selected_original | complete_case | XGBoost
+controlled grid recomputed in this stage reproduces the signed advanced fold scores (max abs difference 0.000e+00)
+stage 6/7: uniform class-weighting policies
+class weighting 1/162: policy=none | A_all_original | median_mode | Logistic Regression
+class weighting 2/162: policy=none | A_all_original | median_mode | Decision Tree
+class weighting 3/162: policy=none | A_all_original | median_mode | Random Forest
+class weighting 4/162: policy=none | A_all_original | median_mode | SVM
+class weighting 5/162: policy=none | A_all_original | median_mode | KNN
+class weighting 6/162: policy=none | A_all_original | median_mode | AdaBoost
+class weighting 7/162: policy=none | A_all_original | median_mode | Gradient Boosting
+class weighting 8/162: policy=none | A_all_original | median_mode | Extra Trees
+class weighting 9/162: policy=none | A_all_original | median_mode | XGBoost
+class weighting 10/162: policy=none | B_pca_95 | median_mode | Logistic Regression
+class weighting 11/162: policy=none | B_pca_95 | median_mode | Decision Tree
+class weighting 12/162: policy=none | B_pca_95 | median_mode | Random Forest
+class weighting 13/162: policy=none | B_pca_95 | median_mode | SVM
+class weighting 14/162: policy=none | B_pca_95 | median_mode | KNN
+class weighting 15/162: policy=none | B_pca_95 | median_mode | AdaBoost
+class weighting 16/162: policy=none | B_pca_95 | median_mode | Gradient Boosting
+class weighting 17/162: policy=none | B_pca_95 | median_mode | Extra Trees
+class weighting 18/162: policy=none | B_pca_95 | median_mode | XGBoost
+class weighting 19/162: policy=none | C_selected_original | median_mode | Logistic Regression
+class weighting 20/162: policy=none | C_selected_original | median_mode | Decision Tree
+class weighting 21/162: policy=none | C_selected_original | median_mode | Random Forest
+class weighting 22/162: policy=none | C_selected_original | median_mode | SVM
+class weighting 23/162: policy=none | C_selected_original | median_mode | KNN
+class weighting 24/162: policy=none | C_selected_original | median_mode | AdaBoost
+class weighting 25/162: policy=none | C_selected_original | median_mode | Gradient Boosting
+class weighting 26/162: policy=none | C_selected_original | median_mode | Extra Trees
+class weighting 27/162: policy=none | C_selected_original | median_mode | XGBoost
+class weighting 28/162: policy=none | A_all_original | knn | Logistic Regression
+class weighting 29/162: policy=none | A_all_original | knn | Decision Tree
+class weighting 30/162: policy=none | A_all_original | knn | Random Forest
+class weighting 31/162: policy=none | A_all_original | knn | SVM
+class weighting 32/162: policy=none | A_all_original | knn | KNN
+class weighting 33/162: policy=none | A_all_original | knn | AdaBoost
+class weighting 34/162: policy=none | A_all_original | knn | Gradient Boosting
+class weighting 35/162: policy=none | A_all_original | knn | Extra Trees
+class weighting 36/162: policy=none | A_all_original | knn | XGBoost
+class weighting 37/162: policy=none | B_pca_95 | knn | Logistic Regression
+class weighting 38/162: policy=none | B_pca_95 | knn | Decision Tree
+class weighting 39/162: policy=none | B_pca_95 | knn | Random Forest
+class weighting 40/162: policy=none | B_pca_95 | knn | SVM
+class weighting 41/162: policy=none | B_pca_95 | knn | KNN
+class weighting 42/162: policy=none | B_pca_95 | knn | AdaBoost
+class weighting 43/162: policy=none | B_pca_95 | knn | Gradient Boosting
+class weighting 44/162: policy=none | B_pca_95 | knn | Extra Trees
+class weighting 45/162: policy=none | B_pca_95 | knn | XGBoost
+class weighting 46/162: policy=none | C_selected_original | knn | Logistic Regression
+class weighting 47/162: policy=none | C_selected_original | knn | Decision Tree
+class weighting 48/162: policy=none | C_selected_original | knn | Random Forest
+class weighting 49/162: policy=none | C_selected_original | knn | SVM
+class weighting 50/162: policy=none | C_selected_original | knn | KNN
+class weighting 51/162: policy=none | C_selected_original | knn | AdaBoost
+class weighting 52/162: policy=none | C_selected_original | knn | Gradient Boosting
+class weighting 53/162: policy=none | C_selected_original | knn | Extra Trees
+class weighting 54/162: policy=none | C_selected_original | knn | XGBoost
+class weighting 55/162: policy=none | A_all_original | complete_case | Logistic Regression
+class weighting 56/162: policy=none | A_all_original | complete_case | Decision Tree
+class weighting 57/162: policy=none | A_all_original | complete_case | Random Forest
+class weighting 58/162: policy=none | A_all_original | complete_case | SVM
+class weighting 59/162: policy=none | A_all_original | complete_case | KNN
+class weighting 60/162: policy=none | A_all_original | complete_case | AdaBoost
+class weighting 61/162: policy=none | A_all_original | complete_case | Gradient Boosting
+class weighting 62/162: policy=none | A_all_original | complete_case | Extra Trees
+class weighting 63/162: policy=none | A_all_original | complete_case | XGBoost
+class weighting 64/162: policy=none | B_pca_95 | complete_case | Logistic Regression
+class weighting 65/162: policy=none | B_pca_95 | complete_case | Decision Tree
+class weighting 66/162: policy=none | B_pca_95 | complete_case | Random Forest
+class weighting 67/162: policy=none | B_pca_95 | complete_case | SVM
+class weighting 68/162: policy=none | B_pca_95 | complete_case | KNN
+class weighting 69/162: policy=none | B_pca_95 | complete_case | AdaBoost
+class weighting 70/162: policy=none | B_pca_95 | complete_case | Gradient Boosting
+class weighting 71/162: policy=none | B_pca_95 | complete_case | Extra Trees
+class weighting 72/162: policy=none | B_pca_95 | complete_case | XGBoost
+class weighting 73/162: policy=none | C_selected_original | complete_case | Logistic Regression
+class weighting 74/162: policy=none | C_selected_original | complete_case | Decision Tree
+class weighting 75/162: policy=none | C_selected_original | complete_case | Random Forest
+class weighting 76/162: policy=none | C_selected_original | complete_case | SVM
+class weighting 77/162: policy=none | C_selected_original | complete_case | KNN
+class weighting 78/162: policy=none | C_selected_original | complete_case | AdaBoost
+class weighting 79/162: policy=none | C_selected_original | complete_case | Gradient Boosting
+class weighting 80/162: policy=none | C_selected_original | complete_case | Extra Trees
+class weighting 81/162: policy=none | C_selected_original | complete_case | XGBoost
+class weighting 82/162: policy=balanced | A_all_original | median_mode | Logistic Regression
+class weighting 83/162: policy=balanced | A_all_original | median_mode | Decision Tree
+class weighting 84/162: policy=balanced | A_all_original | median_mode | Random Forest
+class weighting 85/162: policy=balanced | A_all_original | median_mode | SVM
+class weighting 86/162: policy=balanced | A_all_original | median_mode | KNN
+class weighting 87/162: policy=balanced | A_all_original | median_mode | AdaBoost
+class weighting 88/162: policy=balanced | A_all_original | median_mode | Gradient Boosting
+class weighting 89/162: policy=balanced | A_all_original | median_mode | Extra Trees
+class weighting 90/162: policy=balanced | A_all_original | median_mode | XGBoost
+class weighting 91/162: policy=balanced | B_pca_95 | median_mode | Logistic Regression
+class weighting 92/162: policy=balanced | B_pca_95 | median_mode | Decision Tree
+class weighting 93/162: policy=balanced | B_pca_95 | median_mode | Random Forest
+class weighting 94/162: policy=balanced | B_pca_95 | median_mode | SVM
+class weighting 95/162: policy=balanced | B_pca_95 | median_mode | KNN
+class weighting 96/162: policy=balanced | B_pca_95 | median_mode | AdaBoost
+class weighting 97/162: policy=balanced | B_pca_95 | median_mode | Gradient Boosting
+class weighting 98/162: policy=balanced | B_pca_95 | median_mode | Extra Trees
+class weighting 99/162: policy=balanced | B_pca_95 | median_mode | XGBoost
+class weighting 100/162: policy=balanced | C_selected_original | median_mode | Logistic Regression
+class weighting 101/162: policy=balanced | C_selected_original | median_mode | Decision Tree
+class weighting 102/162: policy=balanced | C_selected_original | median_mode | Random Forest
+class weighting 103/162: policy=balanced | C_selected_original | median_mode | SVM
+class weighting 104/162: policy=balanced | C_selected_original | median_mode | KNN
+class weighting 105/162: policy=balanced | C_selected_original | median_mode | AdaBoost
+class weighting 106/162: policy=balanced | C_selected_original | median_mode | Gradient Boosting
+class weighting 107/162: policy=balanced | C_selected_original | median_mode | Extra Trees
+class weighting 108/162: policy=balanced | C_selected_original | median_mode | XGBoost
+class weighting 109/162: policy=balanced | A_all_original | knn | Logistic Regression
+class weighting 110/162: policy=balanced | A_all_original | knn | Decision Tree
+class weighting 111/162: policy=balanced | A_all_original | knn | Random Forest
+class weighting 112/162: policy=balanced | A_all_original | knn | SVM
+class weighting 113/162: policy=balanced | A_all_original | knn | KNN
+class weighting 114/162: policy=balanced | A_all_original | knn | AdaBoost
+class weighting 115/162: policy=balanced | A_all_original | knn | Gradient Boosting
+class weighting 116/162: policy=balanced | A_all_original | knn | Extra Trees
+class weighting 117/162: policy=balanced | A_all_original | knn | XGBoost
+class weighting 118/162: policy=balanced | B_pca_95 | knn | Logistic Regression
+class weighting 119/162: policy=balanced | B_pca_95 | knn | Decision Tree
+class weighting 120/162: policy=balanced | B_pca_95 | knn | Random Forest
+class weighting 121/162: policy=balanced | B_pca_95 | knn | SVM
+class weighting 122/162: policy=balanced | B_pca_95 | knn | KNN
+class weighting 123/162: policy=balanced | B_pca_95 | knn | AdaBoost
+class weighting 124/162: policy=balanced | B_pca_95 | knn | Gradient Boosting
+class weighting 125/162: policy=balanced | B_pca_95 | knn | Extra Trees
+class weighting 126/162: policy=balanced | B_pca_95 | knn | XGBoost
+class weighting 127/162: policy=balanced | C_selected_original | knn | Logistic Regression
+class weighting 128/162: policy=balanced | C_selected_original | knn | Decision Tree
+class weighting 129/162: policy=balanced | C_selected_original | knn | Random Forest
+class weighting 130/162: policy=balanced | C_selected_original | knn | SVM
+class weighting 131/162: policy=balanced | C_selected_original | knn | KNN
+class weighting 132/162: policy=balanced | C_selected_original | knn | AdaBoost
+class weighting 133/162: policy=balanced | C_selected_original | knn | Gradient Boosting
+class weighting 134/162: policy=balanced | C_selected_original | knn | Extra Trees
+class weighting 135/162: policy=balanced | C_selected_original | knn | XGBoost
+class weighting 136/162: policy=balanced | A_all_original | complete_case | Logistic Regression
+class weighting 137/162: policy=balanced | A_all_original | complete_case | Decision Tree
+class weighting 138/162: policy=balanced | A_all_original | complete_case | Random Forest
+class weighting 139/162: policy=balanced | A_all_original | complete_case | SVM
+class weighting 140/162: policy=balanced | A_all_original | complete_case | KNN
+class weighting 141/162: policy=balanced | A_all_original | complete_case | AdaBoost
+class weighting 142/162: policy=balanced | A_all_original | complete_case | Gradient Boosting
+class weighting 143/162: policy=balanced | A_all_original | complete_case | Extra Trees
+class weighting 144/162: policy=balanced | A_all_original | complete_case | XGBoost
+class weighting 145/162: policy=balanced | B_pca_95 | complete_case | Logistic Regression
+class weighting 146/162: policy=balanced | B_pca_95 | complete_case | Decision Tree
+class weighting 147/162: policy=balanced | B_pca_95 | complete_case | Random Forest
+class weighting 148/162: policy=balanced | B_pca_95 | complete_case | SVM
+class weighting 149/162: policy=balanced | B_pca_95 | complete_case | KNN
+class weighting 150/162: policy=balanced | B_pca_95 | complete_case | AdaBoost
+class weighting 151/162: policy=balanced | B_pca_95 | complete_case | Gradient Boosting
+class weighting 152/162: policy=balanced | B_pca_95 | complete_case | Extra Trees
+class weighting 153/162: policy=balanced | B_pca_95 | complete_case | XGBoost
+class weighting 154/162: policy=balanced | C_selected_original | complete_case | Logistic Regression
+class weighting 155/162: policy=balanced | C_selected_original | complete_case | Decision Tree
+class weighting 156/162: policy=balanced | C_selected_original | complete_case | Random Forest
+class weighting 157/162: policy=balanced | C_selected_original | complete_case | SVM
+class weighting 158/162: policy=balanced | C_selected_original | complete_case | KNN
+class weighting 159/162: policy=balanced | C_selected_original | complete_case | AdaBoost
+class weighting 160/162: policy=balanced | C_selected_original | complete_case | Gradient Boosting
+class weighting 161/162: policy=balanced | C_selected_original | complete_case | Extra Trees
+class weighting 162/162: policy=balanced | C_selected_original | complete_case | XGBoost
+stage 7/7: nested resampling of the selection procedure
+nested full_sample outer repeat 1 fold 1: train n=224 {1: 140, 0: 84}; validation n=56 {1: 35, 0: 21}
+nested full_sample outer repeat 1 fold 1: fit retained_sample -> B_pca_95 | knn | Extra Trees
+nested full_sample outer repeat 1 fold 1: fit retained_sample:A_all_original -> A_all_original | median_mode | Extra Trees
+nested full_sample outer repeat 1 fold 1: fit retained_sample:C_selected_original -> C_selected_original | median_mode | Extra Trees
+nested full_sample outer repeat 1 fold 2: train n=224 {1: 140, 0: 84}; validation n=56 {1: 35, 0: 21}
+nested full_sample outer repeat 1 fold 2: fit retained_sample -> B_pca_95 | knn | Extra Trees
+nested full_sample outer repeat 1 fold 2: fit retained_sample:A_all_original -> A_all_original | median_mode | Extra Trees
+nested full_sample outer repeat 1 fold 2: fit retained_sample:C_selected_original -> C_selected_original | knn | Extra Trees
+nested full_sample outer repeat 1 fold 3: train n=224 {1: 140, 0: 84}; validation n=56 {1: 35, 0: 21}
+nested full_sample outer repeat 1 fold 3: fit retained_sample -> A_all_original | median_mode | Extra Trees
+nested full_sample outer repeat 1 fold 3: fit retained_sample:B_pca_95 -> B_pca_95 | median_mode | Extra Trees
+nested full_sample outer repeat 1 fold 3: fit retained_sample:C_selected_original -> C_selected_original | knn | Gradient Boosting
+nested full_sample outer repeat 1 fold 4: train n=224 {1: 140, 0: 84}; validation n=56 {1: 35, 0: 21}
+nested full_sample outer repeat 1 fold 4: fit retained_sample -> A_all_original | median_mode | Extra Trees
+nested full_sample outer repeat 1 fold 4: fit retained_sample:B_pca_95 -> B_pca_95 | median_mode | SVM
+nested full_sample outer repeat 1 fold 4: fit retained_sample:C_selected_original -> C_selected_original | median_mode | SVM
+nested full_sample outer repeat 1 fold 5: train n=224 {1: 140, 0: 84}; validation n=56 {1: 35, 0: 21}
+nested full_sample outer repeat 1 fold 5: fit retained_sample -> B_pca_95 | median_mode | AdaBoost
+nested full_sample outer repeat 1 fold 5: fit retained_sample:A_all_original -> A_all_original | median_mode | SVM
+nested full_sample outer repeat 1 fold 5: fit retained_sample:C_selected_original -> C_selected_original | knn | Extra Trees
+nested full_sample outer repeat 1 fold 5: fit retained_tree_non_pca -> A_all_original | median_mode | Extra Trees
+nested full_sample outer repeat 2 fold 1: train n=224 {1: 140, 0: 84}; validation n=56 {1: 35, 0: 21}
+nested full_sample outer repeat 2 fold 1: fit retained_sample -> B_pca_95 | median_mode | Extra Trees
+nested full_sample outer repeat 2 fold 1: fit retained_sample:A_all_original -> A_all_original | knn | SVM
+nested full_sample outer repeat 2 fold 1: fit retained_sample:C_selected_original -> C_selected_original | median_mode | SVM
+nested full_sample outer repeat 2 fold 1: fit retained_tree_non_pca -> A_all_original | median_mode | Extra Trees
+nested full_sample outer repeat 2 fold 2: train n=224 {1: 140, 0: 84}; validation n=56 {1: 35, 0: 21}
+nested full_sample outer repeat 2 fold 2: fit retained_sample -> A_all_original | median_mode | Extra Trees
+nested full_sample outer repeat 2 fold 2: fit retained_sample:B_pca_95 -> B_pca_95 | median_mode | Extra Trees
+nested full_sample outer repeat 2 fold 2: fit retained_sample:C_selected_original -> C_selected_original | median_mode | Extra Trees
+nested full_sample outer repeat 2 fold 3: train n=224 {1: 140, 0: 84}; validation n=56 {1: 35, 0: 21}
+nested full_sample outer repeat 2 fold 3: fit retained_sample -> B_pca_95 | median_mode | Random Forest
+nested full_sample outer repeat 2 fold 3: fit retained_sample:A_all_original -> A_all_original | median_mode | Extra Trees
+nested full_sample outer repeat 2 fold 3: fit retained_sample:C_selected_original -> C_selected_original | knn | Extra Trees
+nested full_sample outer repeat 2 fold 4: train n=224 {1: 140, 0: 84}; validation n=56 {1: 35, 0: 21}
+nested full_sample outer repeat 2 fold 4: fit retained_sample -> B_pca_95 | median_mode | Random Forest
+nested full_sample outer repeat 2 fold 4: fit retained_sample:A_all_original -> A_all_original | median_mode | Extra Trees
+nested full_sample outer repeat 2 fold 4: fit retained_sample:C_selected_original -> C_selected_original | median_mode | Extra Trees
+nested full_sample outer repeat 2 fold 5: train n=224 {1: 140, 0: 84}; validation n=56 {1: 35, 0: 21}
+nested full_sample outer repeat 2 fold 5: fit retained_sample -> B_pca_95 | knn | Random Forest
+nested full_sample outer repeat 2 fold 5: fit retained_sample:A_all_original -> A_all_original | median_mode | Extra Trees
+nested full_sample outer repeat 2 fold 5: fit retained_sample:C_selected_original -> C_selected_original | knn | Extra Trees
+nested full_sample outer repeat 3 fold 1: train n=224 {1: 140, 0: 84}; validation n=56 {1: 35, 0: 21}
+nested full_sample outer repeat 3 fold 1: fit retained_sample -> A_all_original | knn | Extra Trees
+nested full_sample outer repeat 3 fold 1: fit retained_sample:B_pca_95 -> B_pca_95 | knn | Extra Trees
+nested full_sample outer repeat 3 fold 1: fit retained_sample:C_selected_original -> C_selected_original | median_mode | Extra Trees
+nested full_sample outer repeat 3 fold 2: train n=224 {1: 140, 0: 84}; validation n=56 {1: 35, 0: 21}
+nested full_sample outer repeat 3 fold 2: fit retained_sample -> C_selected_original | knn | Extra Trees
+nested full_sample outer repeat 3 fold 2: fit retained_sample:A_all_original -> A_all_original | median_mode | SVM
+nested full_sample outer repeat 3 fold 2: fit retained_sample:B_pca_95 -> B_pca_95 | median_mode | Random Forest
+nested full_sample outer repeat 3 fold 3: train n=224 {1: 140, 0: 84}; validation n=56 {1: 35, 0: 21}
+nested full_sample outer repeat 3 fold 3: fit retained_sample -> A_all_original | median_mode | Extra Trees
+nested full_sample outer repeat 3 fold 3: fit retained_sample:B_pca_95 -> B_pca_95 | median_mode | Extra Trees
+nested full_sample outer repeat 3 fold 3: fit retained_sample:C_selected_original -> C_selected_original | knn | SVM
+nested full_sample outer repeat 3 fold 4: train n=224 {1: 140, 0: 84}; validation n=56 {1: 35, 0: 21}
+nested full_sample outer repeat 3 fold 4: fit retained_sample -> B_pca_95 | knn | Extra Trees
+nested full_sample outer repeat 3 fold 4: fit retained_sample:A_all_original -> A_all_original | median_mode | Extra Trees
+nested full_sample outer repeat 3 fold 4: fit retained_sample:C_selected_original -> C_selected_original | knn | Extra Trees
+nested full_sample outer repeat 3 fold 5: train n=224 {1: 140, 0: 84}; validation n=56 {1: 35, 0: 21}
+nested full_sample outer repeat 3 fold 5: fit retained_sample -> C_selected_original | knn | SVM
+nested full_sample outer repeat 3 fold 5: fit retained_sample:A_all_original -> A_all_original | median_mode | Extra Trees
+nested full_sample outer repeat 3 fold 5: fit retained_sample:B_pca_95 -> B_pca_95 | median_mode | Random Forest
+nested full_sample outer repeat 3 fold 5: fit retained_tree_non_pca -> C_selected_original | knn | Extra Trees
+nested complete_case outer repeat 1 fold 1: train n=89 {0: 65, 1: 24}; validation n=23 {0: 16, 1: 7}
+nested complete_case outer repeat 1 fold 1: fit complete_case_sensitivity -> B_pca_95 | complete_case | AdaBoost
+nested complete_case outer repeat 1 fold 2: train n=89 {0: 64, 1: 25}; validation n=23 {0: 17, 1: 6}
+nested complete_case outer repeat 1 fold 2: fit complete_case_sensitivity -> A_all_original | complete_case | Extra Trees
+nested complete_case outer repeat 1 fold 3: train n=90 {0: 65, 1: 25}; validation n=22 {0: 16, 1: 6}
+nested complete_case outer repeat 1 fold 3: fit complete_case_sensitivity -> B_pca_95 | complete_case | AdaBoost
+nested complete_case outer repeat 1 fold 4: train n=90 {0: 65, 1: 25}; validation n=22 {0: 16, 1: 6}
+nested complete_case outer repeat 1 fold 4: fit complete_case_sensitivity -> B_pca_95 | complete_case | AdaBoost
+nested complete_case outer repeat 1 fold 5: train n=90 {0: 65, 1: 25}; validation n=22 {0: 16, 1: 6}
+nested complete_case outer repeat 1 fold 5: fit complete_case_sensitivity -> B_pca_95 | complete_case | AdaBoost
+nested complete_case outer repeat 2 fold 1: train n=89 {0: 65, 1: 24}; validation n=23 {0: 16, 1: 7}
+nested complete_case outer repeat 2 fold 1: fit complete_case_sensitivity -> A_all_original | complete_case | Extra Trees
+nested complete_case outer repeat 2 fold 2: train n=89 {0: 64, 1: 25}; validation n=23 {0: 17, 1: 6}
+nested complete_case outer repeat 2 fold 2: fit complete_case_sensitivity -> B_pca_95 | complete_case | AdaBoost
+nested complete_case outer repeat 2 fold 3: train n=90 {0: 65, 1: 25}; validation n=22 {0: 16, 1: 6}
+nested complete_case outer repeat 2 fold 3: fit complete_case_sensitivity -> B_pca_95 | complete_case | AdaBoost
+nested complete_case outer repeat 2 fold 4: train n=90 {0: 65, 1: 25}; validation n=22 {0: 16, 1: 6}
+nested complete_case outer repeat 2 fold 4: fit complete_case_sensitivity -> B_pca_95 | complete_case | AdaBoost
+nested complete_case outer repeat 2 fold 5: train n=90 {0: 65, 1: 25}; validation n=22 {0: 16, 1: 6}
+nested complete_case outer repeat 2 fold 5: fit complete_case_sensitivity -> A_all_original | complete_case | Gradient Boosting
+nested complete_case outer repeat 3 fold 1: train n=89 {0: 65, 1: 24}; validation n=23 {0: 16, 1: 7}
+nested complete_case outer repeat 3 fold 1: fit complete_case_sensitivity -> B_pca_95 | complete_case | AdaBoost
+nested complete_case outer repeat 3 fold 2: train n=89 {0: 64, 1: 25}; validation n=23 {0: 17, 1: 6}
+nested complete_case outer repeat 3 fold 2: fit complete_case_sensitivity -> A_all_original | complete_case | Extra Trees
+nested complete_case outer repeat 3 fold 3: train n=90 {0: 65, 1: 25}; validation n=22 {0: 16, 1: 6}
+nested complete_case outer repeat 3 fold 3: fit complete_case_sensitivity -> B_pca_95 | complete_case | AdaBoost
+nested complete_case outer repeat 3 fold 4: train n=90 {0: 65, 1: 25}; validation n=22 {0: 16, 1: 6}
+nested complete_case outer repeat 3 fold 4: fit complete_case_sensitivity -> B_pca_95 | complete_case | AdaBoost
+nested complete_case outer repeat 3 fold 5: train n=90 {0: 65, 1: 25}; validation n=22 {0: 16, 1: 6}
+nested complete_case outer repeat 3 fold 5: fit complete_case_sensitivity -> B_pca_95 | complete_case | AdaBoost
+outputs validated; ready for atomic completion
